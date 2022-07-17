@@ -7,6 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2449219355436496024, guid: 76d725ebce62c4e4fa654d05869d86dc,
+        type: 3}
+      propertyPath: OnEnableWeapon.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449219355436496024, guid: 76d725ebce62c4e4fa654d05869d86dc,
+        type: 3}
+      propertyPath: OnEnableWeapon.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449219355436496024, guid: 76d725ebce62c4e4fa654d05869d86dc,
+        type: 3}
+      propertyPath: OnEnableWeapon.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2449219355436496025, guid: 76d725ebce62c4e4fa654d05869d86dc,
         type: 3}
       propertyPath: m_RootOrder
@@ -65,7 +80,7 @@ PrefabInstance:
     - target: {fileID: 2449219355436496031, guid: 76d725ebce62c4e4fa654d05869d86dc,
         type: 3}
       propertyPath: m_Name
-      value: Weapon
+      value: Bow 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76d725ebce62c4e4fa654d05869d86dc, type: 3}
