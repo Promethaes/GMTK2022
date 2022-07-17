@@ -62,12 +62,12 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1069431850" Language="SFX" Hash="2063730577">
+		<SoundBank Id="1069431850" Language="SFX" Hash="937880213">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3714387978" Name="Play_Switch_sx_plr_dodgeroll" ObjectPath="\Events\Default Work Unit\Player\Play_Switch_sx_plr_dodgeroll" DurationType="Infinite">
+				<Event Id="3714387978" Name="Play_Switch_sx_plr_dodgeroll" ObjectPath="\Events\Default Work Unit\Player\Play_Switch_sx_plr_dodgeroll" DurationType="OneShot" DurationMin="0.369385" DurationMax="0.391349">
 					<IncludedMemoryFiles>
 						<File Id="233490610" Language="SFX">
 							<ShortName>Exports\sx_plr_dodgeroll_3.wav</ShortName>
