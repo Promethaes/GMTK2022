@@ -71,6 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3184181796717169515}
   - component: {fileID: 3184181796717169512}
+  - component: {fileID: 6500512441572266375}
   m_Layer: 0
   m_Name: Bow
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponOwner: {fileID: 0}
   cooldown: 0
-  finishedAttackCooldown: 0.1
+  finishedAttackCooldown: 0.65
   OnAttack:
     m_PersistentCalls:
       m_Calls: []
@@ -122,7 +123,22 @@ MonoBehaviour:
       m_Calls: []
   bulletSpeed: 10
   setInactiveOnFire: 0
-  bulletPrefab: {fileID: 4116585857251360361, guid: 8a44b8e727c01c649a02923801763e76, type: 3}
+  bulletPrefab: {fileID: 4116585857251360361, guid: 8a44b8e727c01c649a02923801763e76,
+    type: 3}
   tipOfGun: {fileID: 3184181796694163757}
   weaponManagerTransform: {fileID: 0}
   debugBulletPath: 1
+--- !u!114 &6500512441572266375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184181796717169514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5987507375e7754caf46332200d3060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 0}
+  lookAheadDistance: 3
