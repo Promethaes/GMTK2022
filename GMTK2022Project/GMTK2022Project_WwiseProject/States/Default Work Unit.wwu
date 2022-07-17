@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{11C39398-CA47-44F5-9760-BF2DCD29C549}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{11C39398-CA47-44F5-9760-BF2DCD29C549}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{11C39398-CA47-44F5-9760-BF2DCD29C549}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{3F884BAD-4C13-4A38-A34F-FA3FF055E7D3}"/>
+						<State Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+						<State Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+							<EndState Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+							<Time>1.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

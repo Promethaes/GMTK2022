@@ -32,6 +32,27 @@ namespace AK
         static const AkUniqueID PLAY_SX_WPN_SWORD = 2999961825U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace ONHIT
+        {
+            static const AkUniqueID GROUP = 3182539833U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID ONHIT = 3182539833U;
+                static const AkUniqueID RECOVER = 1972544759U;
+            } // namespace STATE
+        } // namespace ONHIT
+
+    } // namespace STATES
+
+    namespace TRIGGERS
+    {
+        static const AkUniqueID ONHIT = 3182539833U;
+    } // namespace TRIGGERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

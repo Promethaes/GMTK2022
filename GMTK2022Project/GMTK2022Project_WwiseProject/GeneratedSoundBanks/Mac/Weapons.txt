@@ -7,6 +7,22 @@ Event	ID	Name			Wwise Object Path	Notes
 	2999961825	Play_sx_wpn_sword			\Default Work Unit\Weapons\Play_sx_wpn_sword	
 	4044352437	Play_Switch_sx_wpn_gsword			\Default Work Unit\Weapons\Play_Switch_sx_wpn_gsword	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	3182539833	OnHit			\Default Work Unit\OnHit	
+
+State	ID	Name	State Group			Notes
+	748895195	None	OnHit			
+	1972544759	Recover	OnHit			
+	3182539833	OnHit	OnHit			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	160640390	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_bow_1		
+	282640253	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_shield_1		
+	633594095	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_gsword		
+	885769883	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_sword_1		
+	894638246	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_spear_1		
+	956577875	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_dagger		
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	8997871	sx_wpn_whoosh_2	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Mac\SFX\Exports\sx_wpn_whoosh_2_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_whoosh\sx_wpn_whoosh_2		73128
 	15716606	sx_wpn_gsword_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Mac\SFX\Exports\sx_wpn_gsword_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_gsword\sx_wpn_gsword_1		394208

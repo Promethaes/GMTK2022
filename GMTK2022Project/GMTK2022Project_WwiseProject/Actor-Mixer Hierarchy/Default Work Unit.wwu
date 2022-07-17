@@ -40,6 +40,27 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{C4C59AF4-2430-4FFE-A8D9-5141E5389525}" ShortID="135599518"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{31F15093-79E5-4DC5-A7B6-551199320C85}" ShortID="885769883">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="sx_wpn_sword_1" ID="{3F0A4791-7E7E-4120-9259-DADB957995AF}" Platform="Linked"/>
@@ -78,6 +99,27 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{F16DAF13-CFAC-42CD-AE83-ADF7FFE2DE8E}" ShortID="401681335"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{7691FF48-F2F9-4398-BA72-6F57754D4C62}" ShortID="282640253">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="sx_wpn_shield_1" ID="{CCCB814A-A17C-4E8F-9AA5-55BEB61D71BB}" Platform="Linked"/>
@@ -116,6 +158,27 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{EEB43895-A6FD-420D-A1FA-51C04ABFE15E}" ShortID="97636406"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{CAB32F2E-B8F8-4E0F-AF84-49AB0F49EF60}" ShortID="894638246">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="sx_wpn_spear_1" ID="{3F3DA72C-097E-42FE-8A88-10A7B2B32F06}" Platform="Linked"/>
@@ -154,6 +217,27 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{026BC975-8190-468B-9E7A-8487F4E0DE25}" ShortID="994851306"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{A39D1A93-D422-4B42-942C-983D42A28BDE}" ShortID="160640390">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="sx_wpn_bow_1" ID="{6B97709F-60ED-41AE-B1C9-0F045D46FF7F}" Platform="Linked"/>
@@ -254,6 +338,27 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{0C506E91-F405-4E32-8FEE-F6407091B123}" ShortID="67247603"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{265025B7-8ACC-4190-8E41-3D2BB0AABCFB}" ShortID="633594095">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="60"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Switch_sx_wpn_dagger" ID="{5B3B60ED-154B-4807-9C4B-1427CF549E8C}" ShortID="264743202">
@@ -329,6 +434,27 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{C1501613-046E-4260-ACC3-A3F77F12C41C}" ShortID="503611944"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{D68C6B41-8ACE-418A-9246-2367B8595969}" ShortID="956577875">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="60"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Switch_sx_wpn_whoosh" ID="{1C39246A-4E1F-4D57-8A58-415BEE4576DA}" ShortID="215853943">
@@ -450,6 +576,23 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{96C26B13-1085-44FF-A2BF-C8D2AD41FBC7}" ShortID="609684021"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{6C7089C7-777B-4E26-A683-41B131D39F95}" ShortID="370176306"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="sx_npc_attackcue_1" ID="{42C973A9-C8CC-4071-8733-52089B3C2FC8}" Platform="Linked"/>
@@ -473,6 +616,27 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{B5C3D9AF-4F52-4AA5-9F64-6F5945D2689B}" ShortID="376057174"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{23F18F7C-EB15-4B02-AA08-4B414D59C5CF}" ShortID="472026950">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="sx_npc_death_1" ID="{7E3F7E53-D35F-40FD-A190-4A7034B90CD4}" Platform="Linked"/>
@@ -558,6 +722,27 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{7FF2FD1A-95A0-4A52-BF90-59FBD85105C9}" ShortID="896306163"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{6A4E3185-8346-4F01-81E4-9D74423E05F7}" ShortID="248213919">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Switch_sx_npc_footstep" ID="{BD7D8423-B6E1-47BB-9F58-C2D00B548A59}" ShortID="392518137">
@@ -617,6 +802,27 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{2155F34A-E2EF-461A-9F84-D120B711461C}" ShortID="409943796"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{520E2478-6E27-4D8A-BCFD-F15CDB85891C}" ShortID="404130854">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -638,6 +844,8 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -695,6 +903,27 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{11297E9F-FC62-47CB-9C51-7E54892EBA39}" ShortID="36358855"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{AB26204C-89D5-4BAA-994D-1C76C0DC2CD5}" ShortID="901852078">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="62"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Switch_sx_plr_hurt" ID="{8BAA0EF8-5DE4-43BC-83BA-22084762BFE1}" ShortID="808046273">
@@ -809,6 +1038,8 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -912,10 +1143,32 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+												<CustomState Name="" ID="{B6EA56D8-53BF-4218-B568-DCBE8E77585A}" ShortID="476472084"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+												<CustomState Name="" ID="{B5281A50-49C1-417E-83EC-D2FFE2D87555}" ShortID="264788153">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="60"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<Sound Name="sx_plr_death_1" ID="{1D385AEE-0E1A-4060-9A35-844C2284BB78}" ShortID="477396819">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>

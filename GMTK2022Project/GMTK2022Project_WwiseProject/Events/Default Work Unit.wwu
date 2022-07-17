@@ -196,6 +196,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{E8976E8A-CAF3-4E31-AAC3-55CD088346B9}" ShortID="222464607">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}" WorkUnitID="{11C39398-CA47-44F5-9760-BF2DCD29C549}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1714BD4F-9149-4B9E-A2B5-3EBEBD303534}" ShortID="727688630">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}" WorkUnitID="{11C39398-CA47-44F5-9760-BF2DCD29C549}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Switch_sx_plr_footstep" ID="{5868E65C-B27E-4EF2-BA47-F8F0293B2C16}">

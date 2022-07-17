@@ -12,6 +12,7 @@
 				<Property Name="Event Action List\{32792B2D-A542-4707-AFAC-21774DDF357F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{33B9685B-1033-435C-94C5-1CCDB928C261}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{373F0627-1807-46E2-A31A-F5030CA299AA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3870F825-C52A-4D3F-835A-F953E75E885C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5868E65C-B27E-4EF2-BA47-F8F0293B2C16}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{64A0FCCB-1EC3-4D36-BE5D-81C7E38C1724}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6EB56416-960C-4CE7-9042-C2371A58DD18}\x64_Expand States" Type="string" Value=""/>
@@ -42,15 +43,16 @@
 				<Property Name="GenerateSoundBanks\ListMode" Type="string" Value="Tree"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="JGlf0mZ8XkyT1tzN4cewqYuoJEfCCZ9GtePs7aCtgy6WekZ1r58mT7RCvSfa4Y4SHxweQi54f0Ccbovx3mF5tA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="gxDcAe7ELUK/fzdKRrY2LgErrlj/////rgyUsLCCLkSZ97mhKY5BwAErrlj/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="rgyUsLCCLkSZ97mhKY5BwAH4b+//////gxDcAe7ELUK/fzdKRrY2LgH4b+//////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="Mixing Desk\GroupCollapse\x64_{A480EA1E-05C5-4403-BF07-4C16CB7C388D}" Type="string" Value="AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>

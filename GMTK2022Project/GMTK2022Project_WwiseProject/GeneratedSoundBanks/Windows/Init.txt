@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3182539833	OnHit			\Default Work Unit\OnHit	
+
+State	ID	Name	State Group			Notes
+	748895195	None	OnHit			
+	1972544759	Recover	OnHit			
+	3182539833	OnHit	OnHit			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	833916109	NPCs			\Default Work Unit\Master Audio Bus\NPCs	
 	1069431850	Player			\Default Work Unit\Master Audio Bus\Player	
