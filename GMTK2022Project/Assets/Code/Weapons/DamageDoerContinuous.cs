@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DamageDoerContinuous : DamageDoer
 {
-    private void OnCollsionStay(Collision other)
+    private void OnCollsionStay2D(Collision2D other)
     {
         DoDamage(other.gameObject);
     }

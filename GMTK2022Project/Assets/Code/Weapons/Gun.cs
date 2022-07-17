@@ -13,7 +13,6 @@ public class Gun : Weapon
     [Header("References")]
     [SerializeField] GameObject bulletPrefab = null;
     public Transform tipOfGun = null;
-    [SerializeField] Animator animator = null;
     [SerializeField] Transform weaponManagerTransform = null;
 
     List<Transform> _bulletEmitterPoints = new List<Transform>();
@@ -59,7 +58,7 @@ public class Gun : Weapon
 
             bullet.SetActive(true);
             bullet.GetComponent<Lifetime>().ResetLife();
-            bullet.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            bullet.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
             bullet.transform.rotation = bep.transform.rotation;
             bullet.transform.position = bep.transform.position;
             bullet.GetComponentInChildren<DamageDoer>().canDoDamage = true;
@@ -67,7 +66,7 @@ public class Gun : Weapon
 
             var dir = bep.transform.position - tipOfGun.position;
             dir = dir.normalized;
-            bullet.GetComponent<Rigidbody>().AddForce(dir * bulletSpeed, ForceMode.Impulse);
+            bullet.GetComponent<Rigidbody2D>().AddForce(dir * bulletSpeed, ForceMode2D.Impulse);
             _bulletKey = (_bulletKey + 1) % _bulletPool.Count;
         }
     }

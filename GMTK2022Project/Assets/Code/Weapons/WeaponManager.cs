@@ -10,11 +10,10 @@ public class WeaponManager : MonoBehaviour
     public UnityEvent OnChangeWeapon;
     public UnityEvent OnBeginAttack;
     public UnityEvent OnFinishAttack;
-    public UnityEvent OnActivateSecondary;
 
     [Header("References")]
-    [SerializeField] Weapon primaryWeapon = null;
-    [SerializeField] Weapon secondaryWeapon = null;
+    [SerializeField] Weapon currentWeapon = null;
+    [SerializeField] List<Weapon> weapons = new List<Weapon>();
     [SerializeField] GameObject ownerEntity = null;
 
     [HideInInspector] public bool canAttack = true;
@@ -25,7 +24,7 @@ public class WeaponManager : MonoBehaviour
 
     private void Awake()
     {
-        primaryWeapon.weaponOwner = ownerEntity;
+        currentWeapon.weaponOwner = ownerEntity;
     }
 
     private void Update()
@@ -34,59 +33,35 @@ public class WeaponManager : MonoBehaviour
         if (_internalDowntime >= downtime)
             OnFinishAttack.Invoke();
         if (firing)
-            OnPrimaryWeapon();
+            OnCurrentWeapon();
     }
 
-    public void OnPrimaryWeapon()
+    public void OnCurrentWeapon()
     {
-        if (!primaryWeapon.CanAttack)
+        if (!currentWeapon.CanAttack)
             return;
         _internalDowntime = 0.0f;
         OnBeginAttack.Invoke();
-        primaryWeapon.Attack();
-    }
-
-    public void OnSecondaryWeapon()
-    {
-        if (!secondaryWeapon.gameObject.activeSelf || !secondaryWeapon.CanAttack)
-            return;
-        _internalDowntime = 0.0f;
-        OnBeginAttack.Invoke();
-        secondaryWeapon.Attack();
-    }
-
-    public void SetSecondaryWeapon(Weapon weapon)
-    {
-        secondaryWeapon = weapon;
-    }
-
-    public void ActivateSecondaryWeapon()
-    {
-        secondaryWeapon.gameObject.SetActive(true);
-        OnActivateSecondary.Invoke();
+        currentWeapon.Attack();
     }
 
     public void OnFire(CallbackContext ctx)
     {
         firing = ctx.performed;
     }
+    public bool CanCurrentWeaponAttack()
+    {
+        return currentWeapon.CanAttack;
+    }
+    public Weapon GetCurrentWeapon()
+    {
+        return currentWeapon;
+    }
 
-    public bool CanPrimaryAttack()
+    public void SetCurrentWeapon(int index)
     {
-        return primaryWeapon.CanAttack;
-    }
-    public bool CanSecondaryAttack()
-    {
-        return secondaryWeapon.CanAttack;
+        currentWeapon = weapons[index];
     }
 
-    public Weapon GetPrimaryWeapon()
-    {
-        return primaryWeapon;
-    }
-    public Weapon GetSecondaryWeapon()
-    {
-        return secondaryWeapon;
-    }
 
 }
