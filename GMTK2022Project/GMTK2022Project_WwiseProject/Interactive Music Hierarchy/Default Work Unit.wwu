@@ -6,6 +6,11 @@
 				<MusicPlaylistContainer Name="Music" ID="{C1C1573C-16F6-462F-B229-0A168BB8E83B}" ShortID="137124484">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="144"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -101,6 +106,27 @@
 							</ObjectLists>
 						</MusicSegment>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="OnHit" ID="{AF939690-EC36-4CB7-80A9-6AB24C39543C}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Recover" ID="{D4728AC8-67B1-450D-BB58-0693D9004A4C}"/>
+								<CustomState Name="" ID="{D07F142A-17BF-459A-99CB-913359869BE7}" ShortID="1005253360"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="OnHit" ID="{A45B7279-F1DC-4DD0-8BC4-597893F39521}"/>
+								<CustomState Name="" ID="{1984F608-50FD-4AE4-82A4-FFBC2679732D}" ShortID="553975197">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="50"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{24A3E885-5058-4672-8CF6-84B839A981AB}">
 							<PropertyList>
@@ -120,6 +146,14 @@
 							<PropertyList>
 								<Property Name="LoopCount" Type="int16" Value="0"/>
 							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{EE4C9C49-6854-484A-B521-F10C3451B770}" ShortID="201686413">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Celtic Impulse Loop" ID="{652DB2F7-AD37-4961-9850-CA1EBF1A4446}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
