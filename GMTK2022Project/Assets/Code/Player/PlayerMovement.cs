@@ -21,6 +21,10 @@ public class PlayerMovement : MonoBehaviour
 	
 	[SerializeField]
 	float rollCooldown = 0.7f;
+	
+	[Header("Particles")]
+	[SerializeField]
+	ParticleSystem walkEffect = null;
 
 	Rigidbody2D m_rigidbody;
 
@@ -46,8 +50,19 @@ public class PlayerMovement : MonoBehaviour
 		    return;
 	    }
 	    
+	    
 	    Vector2 moveAxis = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-	    if (moveAxis.sqrMagnitude > 1f)
+	    
+	    if (Mathf.Approximately(moveAxis.sqrMagnitude, 0f))
+	    {
+		    walkEffect.Stop();
+	    }
+		else if(walkEffect.isStopped)
+	    {
+			walkEffect.Play();
+		}
+
+		if (moveAxis.sqrMagnitude > 1f)
 	    {
 		    moveAxis = moveAxis.normalized;
 	    }

@@ -14,8 +14,8 @@ public class EntryTrigger : MonoBehaviour
 			return;
 		}
 
-		onEntryTriggered?.Invoke();
-
 		gameObject.SetActive(false);
+
+		onEntryTriggered?.Invoke();
 	}
 }
