@@ -51,6 +51,7 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 1a8ddd40517dcf14cae87a3cd5193d45, type: 3}
+  - {fileID: 21300000, guid: 28504750586c31f4bbf9c03049238ede, type: 3}
   - {fileID: -7965257411125447598, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
   - {fileID: 5614837307260605821, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
   - {fileID: -8434446396963221387, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
@@ -194,21 +195,49 @@ SpriteAtlas:
   - {fileID: -141601036852561885, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
   - {fileID: -4811935524970293437, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
   - {fileID: 6404925705205236766, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
-  - {fileID: 21300000, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: 3915855034743857400, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: -3229882185374397449, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: 8831354183932384597, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: -7431311715157057988, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: -1725808179083966188, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: 8435514685770124233, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: -2265661342440307529, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: -4437913873879157171, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: 7818301324997260609, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: 5792762703777836952, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: 21300000, guid: 3a054381a3255da48a8e8ca926264e64, type: 3}
   - {fileID: 21300000, guid: fb401d8111370a449989c9e66a302795, type: 3}
   - {fileID: 21300000, guid: a5457091156fa114ab2f814b44c5ebce, type: 3}
   - {fileID: 21300000, guid: 627384724a3e5ce45ae74b3c92a153e0, type: 3}
+  - {fileID: 21300000, guid: 558ec7b225c38e04190ebc1d1782abf9, type: 3}
   - {fileID: 21300000, guid: 79bc20e254a3ec94793e50630ffa4fa2, type: 3}
   - {fileID: 21300000, guid: 550e7da3b56debb4eb3062ade0e14c74, type: 3}
+  - {fileID: 21300000, guid: e0a81834096157c4f88b40e13be08c84, type: 3}
   - {fileID: 21300000, guid: 2d573c748aade21438068755c061d1e2, type: 3}
+  - {fileID: 21300000, guid: d53ef6459477fe247950d4c07c7a7742, type: 3}
+  - {fileID: 21300000, guid: 99a45e9538a60b249baeb7807253ffd5, type: 3}
   - {fileID: 21300000, guid: c827ec966bf69674fbf987d1645af61f, type: 3}
+  - {fileID: 21300000, guid: ae90d8b64d80e9c418f7fb3f75a814a8, type: 3}
+  - {fileID: 21300000, guid: bf1ba5e6ec359ad46bd3fe16424daf5f, type: 3}
+  - {fileID: 21300000, guid: e9eb3217edd276f4c967e8ba9f7665e6, type: 3}
+  - {fileID: 21300000, guid: 4bf2cd773695cfa4498ca95d48aa0aaf, type: 3}
+  - {fileID: 21300000, guid: 09eca3e721fdab14880ceeb8ae1cbb04, type: 3}
+  - {fileID: 21300000, guid: 386b46e7b98e7a9479c875ea0b9fea92, type: 3}
+  - {fileID: 21300000, guid: 80bf3a984e4ef4248b7f54b38ae3ffbc, type: 3}
   - {fileID: 21300000, guid: 0d457209f120ed34d80d8a22d5d61d38, type: 3}
   - {fileID: 21300000, guid: 4d1a312938d7df249be2171cd38ac4c2, type: 3}
   - {fileID: 21300000, guid: 2525c6497dc1d674b95ef6438fc038d5, type: 3}
+  - {fileID: 21300000, guid: d4a09be95e67f374690014184cc56863, type: 3}
   - {fileID: 21300000, guid: 78d81de9fa8117942a2eebb18b78fee4, type: 3}
+  - {fileID: 21300000, guid: c3aaf60afdb78a04fab3b4e740d9b8fd, type: 3}
   - {fileID: 21300000, guid: cc994d4b2effa3b43b3ce740018556ba, type: 3}
+  - {fileID: 21300000, guid: 2c7ff7db1838a7c48ac81b443c3f1c1d, type: 3}
+  - {fileID: 21300000, guid: fe9f1f0d17a747d4f98cd18ffdb18bc4, type: 3}
+  - {fileID: 21300000, guid: bdf618ded6d11cc45925d746030ee706, type: 3}
+  - {fileID: 21300000, guid: 9dec1daff11d2354ba287bcab027bdd9, type: 3}
   m_PackedSpriteNamesToIndex:
   - dicey bow left hand idle
+  - enemy body idle and run
   - PlaceholderTileset_108
   - PlaceholderTileset_109
   - PlaceholderTileset_119
@@ -352,19 +381,46 @@ SpriteAtlas:
   - PlaceholderTileset_10
   - PlaceholderTileset_42
   - PlaceholderTileset_11
-  - dicey body idle and run
+  - dicey body idle and run_8
+  - dicey body idle and run_9
+  - dicey body idle and run_0
+  - dicey body idle and run_1
+  - dicey body idle and run_2
+  - dicey body idle and run_3
+  - dicey body idle and run_4
+  - dicey body idle and run_5
+  - dicey body idle and run_6
+  - dicey body idle and run_7
+  - enemy spear idle
   - dicey roll
   - dicey shield idle
   - dice spin 5 to 4
+  - enemy bow left hand idle
   - dice spin 2 to 1
   - dicey bow right hand idle
+  - dicey arrow and hand
   - dicey spear idle
+  - dicey bow
+  - enemy dragon slayer idle
   - dicey dagger idle
+  - dicey dagger
+  - dicey dragon slayer
+  - enemy shield idle
+  - dicey sword
+  - enemy sword idle
+  - dicey
+  - enemy bow right hand idle
   - dicey sword idle
   - dice spin 6 to 5
   - dicey dragon slayer idle
+  - dicey shield
   - dice spin 4 to 3
+  - enemy dagger idle
   - dice spin 3 to 2
+  - dicey arrow projectile
+  - dicey spear
+  - enemy bow idle
+  - dicey bow idle
   m_RenderDataMap: {}
   m_Tag: SpriteAtlas
   m_IsVariant: 0
