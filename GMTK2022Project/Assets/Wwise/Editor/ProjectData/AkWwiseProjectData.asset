@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: e3147bbf9454004ebbd11159e1cfa632
     GuidInternal: 
-    m_lastTime: -8585435292503378060
+    m_lastTime: -8585435259046777431
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -151,7 +151,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fb56e64332824d44b8efebb7cbc7c0d6
     GuidInternal: 
-    m_lastTime: -8585435292494625541
+    m_lastTime: -8585435259038009901
     List:
     - name: Music
       guid: e6ee203dce1db945b895c52d2623175f
@@ -235,7 +235,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e984fd063d55194f8363bceb98ab5ea6
     GuidInternal: 
-    m_lastTime: -8585435292503813435
+    m_lastTime: -8585435259047242830
     List:
     - name: NPCs
       guid: 7409af639625104092843849b6cfe136
@@ -269,8 +269,8 @@ MonoBehaviour:
         guid: cb6fc402eab7b44da37920ad5f6ac295
       Path: Events\Default Work Unit\Play_Music
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Switch_sx_npc_footstep
       guid: 3e4fa40262914247adb03f6c5eb62b1a
       id: 2201991657
@@ -799,7 +799,7 @@ MonoBehaviour:
         guid: 769f102eddeaa04ba94a29c002dbeff5
       Path: Triggers\Default Work Unit\OnHit
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 010000001000000011000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

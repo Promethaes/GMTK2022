@@ -137,7 +137,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="716409145">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2425308676">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -320,26 +320,20 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="571119883">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1547403047">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="710047045" Language="SFX">
-							<ShortName>mx_level_1.wav</ShortName>
-							<Path>SFX\mx_level_1_7C50458A.wem</Path>
+						<File Id="1762690" Language="SFX">
+							<ShortName>Celtic Impulse Loop.wav</ShortName>
+							<Path>SFX\Celtic Impulse Loop_7C50458A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="710047045" Language="SFX">
-					<ShortName>mx_level_1.wav</ShortName>
-					<Path>SFX\mx_level_1_7C50458A.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
