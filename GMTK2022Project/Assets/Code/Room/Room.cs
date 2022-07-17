@@ -22,7 +22,7 @@ public class Room : MonoBehaviour
 		SetBlockersActive(true);
 	}
 
-	void SetBlockersActive(bool a_active)
+	public void SetBlockersActive(bool a_active)
 	{
 		foreach (var blocker in exitBlockers)
 		{

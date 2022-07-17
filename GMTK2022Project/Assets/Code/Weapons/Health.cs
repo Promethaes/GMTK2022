@@ -13,7 +13,13 @@ public class Health : MonoBehaviour
     [SerializeField] protected float health = 0.0f;
     public UnityEvent OnTakeDamage, OnDie;
     public bool died { get; protected set; }
-    protected bool canTakeDamage = true;
+    public bool canTakeDamage = true;
+
+    public void SetCanTakeDamage(bool yn)
+    {
+        canTakeDamage = yn;
+    }
+
     private void Start()
     {
         InitHealth();

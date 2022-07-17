@@ -24,6 +24,7 @@ public class LookDirectionTracker : MonoBehaviour
 
 	    Vector3 newDirection = Vector3.Normalize(mousePos - playerTransform.position);
 
+		var pos = playerTransform.position + (newDirection * lookAheadDistance);
 	    transform.position = playerTransform.position + (newDirection * lookAheadDistance);
     }
 }

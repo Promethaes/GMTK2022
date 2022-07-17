@@ -24,7 +24,6 @@ public class WeaponManager : MonoBehaviour
 
     private void Awake()
     {
-        currentWeapon.weaponOwner = ownerEntity;
     }
 
     private void Update()
@@ -32,13 +31,13 @@ public class WeaponManager : MonoBehaviour
         _internalDowntime += Time.deltaTime;
         if (_internalDowntime >= downtime)
             OnFinishAttack.Invoke();
-        if (firing)
+        if (Input.GetButton("Fire1"))
             OnCurrentWeapon();
     }
 
     public void OnCurrentWeapon()
     {
-        if (!currentWeapon.CanAttack)
+        if (currentWeapon == null || !currentWeapon.CanAttack)
             return;
         _internalDowntime = 0.0f;
         OnBeginAttack.Invoke();
@@ -63,5 +62,14 @@ public class WeaponManager : MonoBehaviour
         currentWeapon = weapons[index];
     }
 
+    public void RollForWeapon()
+    {
+        currentWeapon?.gameObject.SetActive(false);
+        int result = Random.Range(0, weapons.Count);
+        while (currentWeapon == weapons[result])
+            result = Random.Range(0, weapons.Count);
+        currentWeapon = weapons[result];
+        currentWeapon.gameObject.SetActive(true);
+    }
 
 }
