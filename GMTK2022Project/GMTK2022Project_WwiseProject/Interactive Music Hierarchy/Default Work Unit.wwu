@@ -4,18 +4,21 @@
 		<WorkUnit Name="Default Work Unit" ID="{9198AA5E-F2B5-4BCF-88D5-2DF48F35376D}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Music" ID="{C1C1573C-16F6-462F-B229-0A168BB8E83B}" ShortID="137124484">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="144"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA02D691-DCD4-49B1-B45A-E11F00759FE2}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF7B14E3-5494-4E00-BBD1-1159E1CFA632}"/>
+							<ObjectRef Name="Music" ID="{A5221939-8F65-4E3C-9CF8-7C089C8B5038}" WorkUnitID="{BF7B14E3-5494-4E00-BBD1-1159E1CFA632}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="mx_level_1" ID="{2A00E328-491F-4E38-A10B-C81108D843D9}" ShortID="952239357">
+						<MusicSegment Name="Celtic Impulse Loop" ID="{652DB2F7-AD37-4961-9850-CA1EBF1A4446}" ShortID="379829069">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+								<Property Name="EndPosition" Type="Real64" Value="150000"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -26,23 +29,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="mx_level_1" ID="{776CDA5C-0EB2-4014-82B5-67465BE34A92}" ShortID="455480423">
+								<MusicTrack Name="Celtic Impulse Loop" ID="{D54481F9-E535-40FE-A391-D8D45C5D5249}" ShortID="509544797">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF7B14E3-5494-4E00-BBD1-1159E1CFA632}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="mx_level_1" ID="{007E7A1E-17DA-4799-BFEB-C311961B0E7A}">
+										<AudioFileSource Name="Celtic Impulse Loop" ID="{A3D7ACB6-2966-44C4-9606-F9FF4B89CB0C}">
 											<Language>SFX</Language>
-											<AudioFile>mx_level_1.wav</AudioFile>
+											<AudioFile>Celtic Impulse Loop.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="710047045"/>
+												<MediaID ID="1762690"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{677512C9-E380-4991-B84B-1247049DEAAD}">
+										<MusicTransition Name="Root" ID="{C62F85FD-13CF-4940-B14E-37653C32F838}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -53,18 +56,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{930D7736-AF05-400D-803F-B5254B637E68}">
+													<MusicTrackSequence Name="" ID="{7B3E0684-2558-4CAA-9AA4-3F10CE7EC499}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="mx_level_1" ID="{944F8AB2-4D04-46B8-B68B-ECA495593FB8}">
+																		<MusicClip Name="Celtic Impulse Loop" ID="{3BBAE9B1-24D9-4A44-B689-343CE2875408}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="150000"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="mx_level_1" ID="{007E7A1E-17DA-4799-BFEB-C311961B0E7A}"/>
+																			<AudioSourceRef Name="Celtic Impulse Loop" ID="{A3D7ACB6-2966-44C4-9606-F9FF4B89CB0C}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -81,15 +84,15 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{B143BEF4-4B1C-45F1-826C-C436E7BA5076}"/>
+											<MusicCue Name="Entry Cue" ID="{E537DC1D-241B-428C-A59E-4C0A76BB01FD}"/>
 										</Local>
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicCue Name="Exit Cue" ID="{7ECCB9A5-7A7F-4E8C-934B-9CC9C39B9904}">
+											<MusicCue Name="Exit Cue" ID="{28217D3E-D8CD-48A6-A55C-E5C7BC63882F}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="8000"/>
+													<Property Name="TimeMs" Type="Real64" Value="150000"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -117,14 +120,6 @@
 							<PropertyList>
 								<Property Name="LoopCount" Type="int16" Value="0"/>
 							</PropertyList>
-							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{5634E0D6-71BE-45A3-B247-2098411B7503}" ShortID="977809979">
-									<PropertyList>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="mx_level_1" ID="{2A00E328-491F-4E38-A10B-C81108D843D9}"/>
-								</MusicPlaylistItem>
-							</ChildrenList>
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>

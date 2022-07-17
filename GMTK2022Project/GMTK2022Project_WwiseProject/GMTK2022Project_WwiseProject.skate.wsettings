@@ -3,9 +3,10 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{9FEE06EC-3943-4F46-A08C-C76CE27C5772}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\My Computer\Documents\Image-Line\FL Studio\Projects\GMTK22\Exports\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\My Computer\Documents\Image-Line\FL Studio\Projects\GMTK22\"/>
 				<Property Name="Event Action List\{0091D9F0-CFD3-4C31-81AC-91F9BCB56735}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{02A44F3E-9162-4742-ADB0-3F6C5EB62B1A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{02C46FCB-B7EA-4DB4-A379-20AD5F6AC295}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{09BF756D-9BD8-4325-9881-DDFB48BFA84C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{132343B5-F37C-4E4F-93AE-50FDEB17C31F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{16253734-B367-43DC-9DE6-1D5970359434}\x64_Expand States" Type="string" Value=""/>
@@ -50,6 +51,7 @@
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="rgyUsLCCLkSZ97mhKY5BwAH4b+//////gxDcAe7ELUK/fzdKRrY2LgH4b+//////"/>
 				<Property Name="Interactive Music\x64_{2A00E328-491F-4E38-A10B-C81108D843D9} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAwF9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{652DB2F7-AD37-4961-9850-CA1EBF1A4446} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPxhLfrHkFxtAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{F36A5C4A-0B20-4FC3-86B4-59A939D7CBFA} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1ALB2AH9RNAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -66,6 +68,8 @@
 				<Property Name="Music Transition List\{301DF547-7BFD-407F-A387-B35C85507AFB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{70E03926-5F01-41D3-9A1E-9ACD601038EF}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{70E03926-5F01-41D3-9A1E-9ACD601038EF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{776CDA5C-0EB2-4014-82B5-67465BE34A92}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{776CDA5C-0EB2-4014-82B5-67465BE34A92}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{C1C1573C-16F6-462F-B229-0A168BB8E83B}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{C1C1573C-16F6-462F-B229-0A168BB8E83B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
