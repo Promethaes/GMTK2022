@@ -4,8 +4,11 @@ using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
+	public UnityEvent onRollStarted = null;
+	
 	public UnityAction onRollEnded;
 
+	[Header("General")]
 	[SerializeField]
 	float moveSpeed = 4f;
 	
@@ -17,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
 	float rollDuration = 0.4f;
 	
 	[SerializeField]
-	float rollCooldown = 0.25f;
+	float rollCooldown = 0.7f;
 
 	Rigidbody2D m_rigidbody;
 
@@ -61,7 +64,9 @@ public class PlayerMovement : MonoBehaviour
     {
 	    m_isRolling = true;
 
-	    if (Mathf.Approximately(moveAxis.sqrMagnitude, 0f))
+		onRollStarted?.Invoke();
+
+		if (Mathf.Approximately(moveAxis.sqrMagnitude, 0f))
 	    {
 		    moveAxis = Vector2.right;
 	    }
