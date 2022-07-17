@@ -1,0 +1,28 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2029174928	Play_Switch_sx_npc_hurt			\Default Work Unit\NPCs\Play_Switch_sx_npc_hurt	
+	2201991657	Play_Switch_sx_npc_footstep			\Default Work Unit\NPCs\Play_Switch_sx_npc_footstep	
+	3238803408	Play_sx_npc_death			\Default Work Unit\NPCs\Play_sx_npc_death	
+	3640804643	Play_sx_npc_attackcue			\Default Work Unit\NPCs\Play_sx_npc_attackcue	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3182539833	OnHit			\Default Work Unit\OnHit	
+
+State	ID	Name	State Group			Notes
+	748895195	None	OnHit			
+	1972544759	Recover	OnHit			
+	3182539833	OnHit	OnHit			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	248213919	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\NPCs\Switch_sx_npc_hurt		
+	404130854	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\NPCs\Switch_sx_npc_footstep		
+	472026950	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\NPCs\sx_npc_death_1		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	177725482	sx_npc_footstep_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_npc_footstep_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\NPCs\Switch_sx_npc_footstep\sx_npc_footstep_1		49208
+	297707691	sx_npc_attackcue_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_npc_attackcue_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\NPCs\sx_npc_attackcue_1		100208
+	382786158	sx_npc_hurt_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_npc_hurt_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\NPCs\Switch_sx_npc_hurt\sx_npc_hurt_1		121192
+	440553136	sx_npc_footstep_2	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_npc_footstep_2_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\NPCs\Switch_sx_npc_footstep\sx_npc_footstep_2		49128
+	673832738	sx_npc_death_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_npc_death_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\NPCs\sx_npc_death_1		475208
+	690604680	sx_npc_hurt_2	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_npc_hurt_2_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\NPCs\Switch_sx_npc_hurt\sx_npc_hurt_2		107128
+	737493722	sx_npc_hurt_3	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_npc_hurt_3_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\NPCs\Switch_sx_npc_hurt\sx_npc_hurt_3		103128
+

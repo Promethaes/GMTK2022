@@ -1,0 +1,39 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1403214302	Play_sx_wpn_bow			\Default Work Unit\Weapons\Play_sx_wpn_bow	
+	1593694525	Play_Switch_sx_wpn_whoosh			\Default Work Unit\Weapons\Play_Switch_sx_wpn_whoosh	
+	2153006489	Play_sx_wpn_shield			\Default Work Unit\Weapons\Play_sx_wpn_shield	
+	2216258413	Play_Switch_sx_wpn_dagger			\Default Work Unit\Weapons\Play_Switch_sx_wpn_dagger	
+	2719353785	Play_sx_wpn_spear			\Default Work Unit\Weapons\Play_sx_wpn_spear	
+	2999961825	Play_sx_wpn_sword			\Default Work Unit\Weapons\Play_sx_wpn_sword	
+	4044352437	Play_Switch_sx_wpn_gsword			\Default Work Unit\Weapons\Play_Switch_sx_wpn_gsword	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3182539833	OnHit			\Default Work Unit\OnHit	
+
+State	ID	Name	State Group			Notes
+	748895195	None	OnHit			
+	1972544759	Recover	OnHit			
+	3182539833	OnHit	OnHit			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	160640390	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_bow_1		
+	282640253	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_shield_1		
+	633594095	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_gsword		
+	885769883	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_sword_1		
+	894638246	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_spear_1		
+	956577875	OnHit	OnHit	\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_dagger		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	8997871	sx_wpn_whoosh_2	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_whoosh_2_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_whoosh\sx_wpn_whoosh_2		73128
+	15716606	sx_wpn_gsword_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_gsword_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_gsword\sx_wpn_gsword_1		394208
+	59430619	sx_wpn_gsword_3	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_gsword_3_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_gsword\sx_wpn_gsword_3		394128
+	200834632	sx_wpn_whoosh_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_whoosh_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_whoosh\sx_wpn_whoosh_1		49208
+	290282747	sx_wpn_gsword_2	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_gsword_2_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_gsword\sx_wpn_gsword_2		394128
+	310155815	sx_wpn_spear_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_spear_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_spear_1		366208
+	378003308	sx_wpn_dagger_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_dagger_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_dagger\sx_wpn_dagger_1		80208
+	409188198	sx_wpn_whoosh_3	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_whoosh_3_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_whoosh\sx_wpn_whoosh_3		49128
+	521354437	sx_wpn_shield_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_shield_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_shield_1		73208
+	703760147	sx_wpn_bow_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_bow_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_bow_1		442192
+	818685731	sx_wpn_dagger_2	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_dagger_2_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\Switch_sx_wpn_dagger\sx_wpn_dagger_2		58128
+	925207531	sx_wpn_sword_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_wpn_sword_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Weapons\sx_wpn_sword_1		55208
+
