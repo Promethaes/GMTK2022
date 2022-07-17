@@ -14,7 +14,7 @@ public class Room : MonoBehaviour
 	{
 		SetBlockersActive(false);
 		
-		entryTrigger.onEntryTriggered += OnRoomEntered;
+		entryTrigger.onEntryTriggered.AddListener(OnRoomEntered);
 	}
 
 	void OnRoomEntered()

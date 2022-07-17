@@ -1038,8 +1038,6 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

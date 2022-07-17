@@ -22,6 +22,9 @@
 						<Bus Name="Weapons" ID="{7813DE12-FDDF-4AA5-8409-E11AE0F548CF}">
 							<ObjectLists/>
 						</Bus>
+						<Bus Name="Music" ID="{A5221939-8F65-4E3C-9CF8-7C089C8B5038}">
+							<ObjectLists/>
+						</Bus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>

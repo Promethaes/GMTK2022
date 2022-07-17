@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class EntryTrigger : MonoBehaviour
 {
-	public UnityAction onEntryTriggered;
+	public UnityEvent onEntryTriggered = new UnityEvent();
 
 	void OnTriggerEnter2D(Collider2D a_other)
 	{
