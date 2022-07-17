@@ -207,6 +207,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 2525c6497dc1d674b95ef6438fc038d5, type: 3}
   - {fileID: 21300000, guid: 78d81de9fa8117942a2eebb18b78fee4, type: 3}
   - {fileID: 21300000, guid: cc994d4b2effa3b43b3ce740018556ba, type: 3}
+  - {fileID: 21300000, guid: 3af1f54fa394ee947a97f922265f3d0c, type: 3}
   m_PackedSpriteNamesToIndex:
   - dicey bow left hand idle
   - PlaceholderTileset_108
@@ -365,6 +366,7 @@ SpriteAtlas:
   - dicey dragon slayer idle
   - dice spin 4 to 3
   - dice spin 3 to 2
+  - dice_ui
   m_RenderDataMap: {}
   m_Tag: SpriteAtlas
   m_IsVariant: 0
