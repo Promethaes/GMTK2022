@@ -9,6 +9,20 @@
 							<ObjectRef Name="System" ID="{E1CC251B-7134-410B-B8A6-0D535EA739E4}" WorkUnitID="{59405C3D-EE02-4EC6-B3F0-4D1955DBF8E5}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="UI" ID="{580D2782-D6F2-4C36-9C1A-07B65B12501A}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Player" ID="{F24C5827-3444-4364-B070-203C260C4AD3}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="NPCs" ID="{A78BFD2F-BA63-4153-BDC6-D86092698260}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Weapons" ID="{7813DE12-FDDF-4AA5-8409-E11AE0F548CF}">
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
