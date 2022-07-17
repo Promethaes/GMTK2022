@@ -1,9 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
+	public UnityAction onRollEnded;
+
 	[SerializeField]
 	float moveSpeed = 4f;
 	
@@ -49,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
 
 	    m_rigidbody.velocity = moveAxis * moveSpeed;
 
-	    if (Input.GetKeyDown(KeyCode.Space) && CanRoll())
+	    if (Input.GetButton("Roll") && CanRoll())
 	    {
 		    StartCoroutine(RollRoutine(moveAxis));
 	    }
@@ -59,13 +61,20 @@ public class PlayerMovement : MonoBehaviour
     {
 	    m_isRolling = true;
 
-	    m_rigidbody.velocity = moveAxis * rollSpeed;
+	    if (Mathf.Approximately(moveAxis.sqrMagnitude, 0f))
+	    {
+		    moveAxis = Vector2.right;
+	    }
+
+		m_rigidbody.velocity = moveAxis.normalized * rollSpeed;
 
 	    yield return new WaitForSeconds(rollDuration);
 
 	    m_lastTimeRollEnded = Time.time;
 	    
 		m_isRolling = false;
+
+		onRollEnded?.Invoke();
     }
 
     bool CanRoll()
