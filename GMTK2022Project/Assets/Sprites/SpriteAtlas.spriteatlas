@@ -50,6 +50,7 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 1a8ddd40517dcf14cae87a3cd5193d45, type: 3}
   - {fileID: -7965257411125447598, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
   - {fileID: 5614837307260605821, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
   - {fileID: -8434446396963221387, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
@@ -193,7 +194,21 @@ SpriteAtlas:
   - {fileID: -141601036852561885, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
   - {fileID: -4811935524970293437, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
   - {fileID: 6404925705205236766, guid: 563ffa01f8801e4478158f9f8c539c10, type: 3}
+  - {fileID: 21300000, guid: d399306161096ae4b8a063b056b15723, type: 3}
+  - {fileID: 21300000, guid: fb401d8111370a449989c9e66a302795, type: 3}
+  - {fileID: 21300000, guid: a5457091156fa114ab2f814b44c5ebce, type: 3}
+  - {fileID: 21300000, guid: 627384724a3e5ce45ae74b3c92a153e0, type: 3}
+  - {fileID: 21300000, guid: 79bc20e254a3ec94793e50630ffa4fa2, type: 3}
+  - {fileID: 21300000, guid: 550e7da3b56debb4eb3062ade0e14c74, type: 3}
+  - {fileID: 21300000, guid: 2d573c748aade21438068755c061d1e2, type: 3}
+  - {fileID: 21300000, guid: c827ec966bf69674fbf987d1645af61f, type: 3}
+  - {fileID: 21300000, guid: 0d457209f120ed34d80d8a22d5d61d38, type: 3}
+  - {fileID: 21300000, guid: 4d1a312938d7df249be2171cd38ac4c2, type: 3}
+  - {fileID: 21300000, guid: 2525c6497dc1d674b95ef6438fc038d5, type: 3}
+  - {fileID: 21300000, guid: 78d81de9fa8117942a2eebb18b78fee4, type: 3}
+  - {fileID: 21300000, guid: cc994d4b2effa3b43b3ce740018556ba, type: 3}
   m_PackedSpriteNamesToIndex:
+  - dicey bow left hand idle
   - PlaceholderTileset_108
   - PlaceholderTileset_109
   - PlaceholderTileset_119
@@ -337,6 +352,19 @@ SpriteAtlas:
   - PlaceholderTileset_10
   - PlaceholderTileset_42
   - PlaceholderTileset_11
+  - dicey body idle and run
+  - dicey roll
+  - dicey shield idle
+  - dice spin 5 to 4
+  - dice spin 2 to 1
+  - dicey bow right hand idle
+  - dicey spear idle
+  - dicey dagger idle
+  - dicey sword idle
+  - dice spin 6 to 5
+  - dicey dragon slayer idle
+  - dice spin 4 to 3
+  - dice spin 3 to 2
   m_RenderDataMap: {}
   m_Tag: SpriteAtlas
   m_IsVariant: 0
