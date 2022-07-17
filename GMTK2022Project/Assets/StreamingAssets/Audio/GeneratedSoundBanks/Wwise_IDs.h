@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_SWITCH_SX_NPC_FOOTSTEP = 2201991657U;
         static const AkUniqueID PLAY_SWITCH_SX_NPC_HURT = 2029174928U;
         static const AkUniqueID PLAY_SWITCH_SX_PLR_DODGEROLL = 3714387978U;
@@ -56,6 +57,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID NPCS = 833916109U;
         static const AkUniqueID PLAYER = 1069431850U;
         static const AkUniqueID UI = 1551306167U;

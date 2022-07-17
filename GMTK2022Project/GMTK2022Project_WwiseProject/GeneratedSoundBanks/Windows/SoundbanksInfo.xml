@@ -320,5 +320,26 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="571119883">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="710047045" Language="SFX">
+							<ShortName>mx_level_1.wav</ShortName>
+							<Path>SFX\mx_level_1_7C50458A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="710047045" Language="SFX">
+					<ShortName>mx_level_1.wav</ShortName>
+					<Path>SFX\mx_level_1_7C50458A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
