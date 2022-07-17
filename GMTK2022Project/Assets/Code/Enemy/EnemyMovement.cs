@@ -39,7 +39,7 @@ public class EnemyMovement : MonoBehaviour
 
         m_navPath = new NavMeshPath();
 
-        m_playerTracker.onTargetSpotted += EnemySpotted;
+        m_playerTracker.onTargetSpotted.AddListener(EnemySpotted);
     }
 
     protected virtual void Update()

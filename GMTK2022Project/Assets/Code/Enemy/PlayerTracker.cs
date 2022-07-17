@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class PlayerTracker : MonoBehaviour
 {
-	public UnityAction onTargetSpotted;
+	public UnityEvent onTargetSpotted = null;
 
 	[SerializeField]
 	float detectionRange = 10f;

@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 	public UnityEvent onRollStarted = null;
 	
-	public UnityAction onRollEnded;
+	public UnityEvent onRollEnded = null;
 
 	[Header("General")]
 	[SerializeField]
