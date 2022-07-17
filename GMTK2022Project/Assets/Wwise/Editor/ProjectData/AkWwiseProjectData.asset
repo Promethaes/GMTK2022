@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 3e1563fcf55a514db29f3ad817bb6146
     GuidInternal: 
-    m_lastTime: -8585436580793661120
+    m_lastTime: -8585435652583677509
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: e3147bbf9454004ebbd11159e1cfa632
     GuidInternal: 
-    m_lastTime: -8585435758597659190
+    m_lastTime: -8585435652085298616
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -134,7 +134,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fb56e64332824d44b8efebb7cbc7c0d6
     GuidInternal: 
-    m_lastTime: -8585435769183447607
+    m_lastTime: -8585435652084818594
     List:
     - name: NPCs
       guid: 24695fd2667c5e4c93d6dccde1c7b0a9
@@ -204,7 +204,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e984fd063d55194f8363bceb98ab5ea6
     GuidInternal: 
-    m_lastTime: -8585435770602278981
+    m_lastTime: -8585435652085684565
     List:
     - name: NPCs
       guid: 7409af639625104092843849b6cfe136
@@ -281,8 +281,8 @@ MonoBehaviour:
         guid: 5b68b93333105c4394c51ccdb928c261
       Path: Events\Default Work Unit\Player\Play_Switch_sx_plr_dodgeroll
       maxAttenuation: 0
-      maxDuration: 0.391349
-      minDuration: 0.369385
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Switch_sx_plr_footstep
       guid: 5ce668587eb2f24eba47f8f0293b2c16
       id: 2412697160
@@ -301,8 +301,8 @@ MonoBehaviour:
         guid: 5ce668587eb2f24eba47f8f0293b2c16
       Path: Events\Default Work Unit\Player\Play_Switch_sx_plr_footstep
       maxAttenuation: 0
-      maxDuration: 0.262687
-      minDuration: 0.247943
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Switch_sx_plr_hurt
       guid: 3437251667b3dc439de61d5970359434
       id: 3330832805
@@ -441,8 +441,8 @@ MonoBehaviour:
         guid: 90dee68cdf89d54691afa7054aa5331b
       Path: Events\Default Work Unit\Player\Play_sx_plr_death
       maxAttenuation: 0
-      maxDuration: 1.415291
-      minDuration: 1.335856
+      maxDuration: -1
+      minDuration: -1
     - name: Play_sx_ui_hover
       guid: b54323137cf34f4e93ae50fdeb17c31f
       id: 298035903
@@ -626,7 +626,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d22f1d53dde7d741ae7c6f26119c3ff6
     GuidInternal: 
-    m_lastTime: -8585436580795335821
+    m_lastTime: -8585435652584577713
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -640,8 +640,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 9893c31147caf5449760bf2dcd29c549
     GuidInternal: 
-    m_lastTime: -8585436580796036414
-    List: []
+    m_lastTime: -8585435652084818594
+    List:
+    - name: OnHit
+      guid: 909693af36ecb74c80a96ab24c39543c
+      id: 3182539833
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9893c31147caf5449760bf2dcd29c549
+      - ElementName: OnHit
+        ObjectType: 9
+        guid: 909693af36ecb74c80a96ab24c39543c
+      Path: States\Default Work Unit\OnHit
+      values:
+      - name: None
+        guid: ad4b883f134c384aa34ffa3ff055e7d3
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9893c31147caf5449760bf2dcd29c549
+        - ElementName: OnHit
+          ObjectType: 9
+          guid: 909693af36ecb74c80a96ab24c39543c
+        - ElementName: None
+          ObjectType: 8
+          guid: ad4b883f134c384aa34ffa3ff055e7d3
+      - name: OnHit
+        guid: 79725ba4dcf1d04d8bc4597893f39521
+        id: 3182539833
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9893c31147caf5449760bf2dcd29c549
+        - ElementName: OnHit
+          ObjectType: 9
+          guid: 909693af36ecb74c80a96ab24c39543c
+        - ElementName: OnHit
+          ObjectType: 8
+          guid: 79725ba4dcf1d04d8bc4597893f39521
+      - name: Recover
+        guid: c88a72d4b1670d45bb580693d9004a4c
+        id: 1972544759
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9893c31147caf5449760bf2dcd29c549
+        - ElementName: OnHit
+          ObjectType: 9
+          guid: 909693af36ecb74c80a96ab24c39543c
+        - ElementName: Recover
+          ObjectType: 8
+          guid: c88a72d4b1670d45bb580693d9004a4c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -654,7 +720,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 93a1e7efc17a3b4dbc41a4e98e740b13
     GuidInternal: 
-    m_lastTime: -8585435770602108834
+    m_lastTime: -8585435652583687513
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -668,10 +734,24 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: a21e4786d224b645b8156ab8d8df297f
     GuidInternal: 
-    m_lastTime: -8585436580794855403
-    List: []
+    m_lastTime: -8585435652084818594
+    List:
+    - name: OnHit
+      guid: 769f102eddeaa04ba94a29c002dbeff5
+      id: 3182539833
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a21e4786d224b645b8156ab8d8df297f
+      - ElementName: OnHit
+        ObjectType: 14
+        guid: 769f102eddeaa04ba94a29c002dbeff5
+      Path: Triggers\Default Work Unit\OnHit
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000006000000070000000a0000000e0000000f000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
