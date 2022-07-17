@@ -62,12 +62,12 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1069431850" Language="SFX" Hash="2063730577">
+		<SoundBank Id="1069431850" Language="SFX" Hash="937880213">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3714387978" Name="Play_Switch_sx_plr_dodgeroll" ObjectPath="\Events\Default Work Unit\Player\Play_Switch_sx_plr_dodgeroll" DurationType="Infinite">
+				<Event Id="3714387978" Name="Play_Switch_sx_plr_dodgeroll" ObjectPath="\Events\Default Work Unit\Player\Play_Switch_sx_plr_dodgeroll" DurationType="OneShot" DurationMin="0.369385" DurationMax="0.391349">
 					<IncludedMemoryFiles>
 						<File Id="233490610" Language="SFX">
 							<ShortName>Exports\sx_plr_dodgeroll_3.wav</ShortName>
@@ -319,6 +319,27 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="571119883">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="710047045" Language="SFX">
+							<ShortName>mx_level_1.wav</ShortName>
+							<Path>SFX\mx_level_1_7C50458A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="710047045" Language="SFX">
+					<ShortName>mx_level_1.wav</ShortName>
+					<Path>SFX\mx_level_1_7C50458A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

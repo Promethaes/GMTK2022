@@ -1,6 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9198AA5E-F2B5-4BCF-88D5-2DF48F35376D}" SchemaVersion="103">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{9198AA5E-F2B5-4BCF-88D5-2DF48F35376D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9198AA5E-F2B5-4BCF-88D5-2DF48F35376D}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Music" ID="{C1C1573C-16F6-462F-B229-0A168BB8E83B}" ShortID="137124484">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="144"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA02D691-DCD4-49B1-B45A-E11F00759FE2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{A5221939-8F65-4E3C-9CF8-7C089C8B5038}" WorkUnitID="{BF7B14E3-5494-4E00-BBD1-1159E1CFA632}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Celtic Impulse Loop" ID="{652DB2F7-AD37-4961-9850-CA1EBF1A4446}" ShortID="379829069">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="150000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA02D691-DCD4-49B1-B45A-E11F00759FE2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF7B14E3-5494-4E00-BBD1-1159E1CFA632}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Celtic Impulse Loop" ID="{D54481F9-E535-40FE-A391-D8D45C5D5249}" ShortID="509544797">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF7B14E3-5494-4E00-BBD1-1159E1CFA632}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Celtic Impulse Loop" ID="{A3D7ACB6-2966-44C4-9606-F9FF4B89CB0C}">
+											<Language>SFX</Language>
+											<AudioFile>Celtic Impulse Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1762690"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C62F85FD-13CF-4940-B14E-37653C32F838}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{7B3E0684-2558-4CAA-9AA4-3F10CE7EC499}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Celtic Impulse Loop" ID="{3BBAE9B1-24D9-4A44-B689-343CE2875408}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="150000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Celtic Impulse Loop" ID="{A3D7ACB6-2966-44C4-9606-F9FF4B89CB0C}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{E537DC1D-241B-428C-A59E-4C0A76BB01FD}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{28217D3E-D8CD-48A6-A55C-E5C7BC63882F}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="150000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{24A3E885-5058-4672-8CF6-84B839A981AB}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{5ADE1A82-9344-4BBD-A82F-A12221890357}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{CE598A3F-2C66-4BD4-A1B7-68BF74C14264}" ShortID="653441124">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
