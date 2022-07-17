@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	298035903	Play_sx_ui_hover			\Default Work Unit\UI\Play_sx_ui_hover	
+	1031467199	Play_sx_ui_select			\Default Work Unit\UI\Play_sx_ui_select	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	172438306	sx_ui_hover_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Mac\SFX\Exports\sx_ui_hover_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\UI\sx_ui_hover_1		49192
+	862651131	sx_ui_select_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Mac\SFX\Exports\sx_ui_select_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\UI\sx_ui_select_1		73208
+

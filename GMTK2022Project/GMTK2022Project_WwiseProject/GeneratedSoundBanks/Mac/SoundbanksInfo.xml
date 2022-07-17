@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="833916109" Language="SFX" Hash="1633296121">
+			<ObjectPath>\SoundBanks\Default Work Unit\NPCs</ObjectPath>
+			<ShortName>NPCs</ShortName>
+			<Path>NPCs.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2201991657" Name="Play_Switch_sx_npc_footstep" ObjectPath="\Events\Default Work Unit\NPCs\Play_Switch_sx_npc_footstep" DurationType="OneShot" DurationMin="0.255208" DurationMax="0.255208">
+					<IncludedMemoryFiles>
+						<File Id="177725482" Language="SFX">
+							<ShortName>Exports\sx_npc_footstep_1.wav</ShortName>
+							<Path>SFX\Exports\sx_npc_footstep_1_DE278C40.wem</Path>
+						</File>
+						<File Id="440553136" Language="SFX">
+							<ShortName>Exports\sx_npc_footstep_2.wav</ShortName>
+							<Path>SFX\Exports\sx_npc_footstep_2_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2029174928" Name="Play_Switch_sx_npc_hurt" ObjectPath="\Events\Default Work Unit\NPCs\Play_Switch_sx_npc_hurt" DurationType="OneShot" DurationMin="0.536458" DurationMax="0.630208">
+					<IncludedMemoryFiles>
+						<File Id="382786158" Language="SFX">
+							<ShortName>Exports\sx_npc_hurt_1.wav</ShortName>
+							<Path>SFX\Exports\sx_npc_hurt_1_DE278C40.wem</Path>
+						</File>
+						<File Id="690604680" Language="SFX">
+							<ShortName>Exports\sx_npc_hurt_2.wav</ShortName>
+							<Path>SFX\Exports\sx_npc_hurt_2_DE278C40.wem</Path>
+						</File>
+						<File Id="737493722" Language="SFX">
+							<ShortName>Exports\sx_npc_hurt_3.wav</ShortName>
+							<Path>SFX\Exports\sx_npc_hurt_3_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3640804643" Name="Play_sx_npc_attackcue" ObjectPath="\Events\Default Work Unit\NPCs\Play_sx_npc_attackcue" DurationType="OneShot" DurationMin="0.520833" DurationMax="0.520833">
+					<IncludedMemoryFiles>
+						<File Id="297707691" Language="SFX">
+							<ShortName>Exports\sx_npc_attackcue_1.wav</ShortName>
+							<Path>SFX\Exports\sx_npc_attackcue_1_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3238803408" Name="Play_sx_npc_death" ObjectPath="\Events\Default Work Unit\NPCs\Play_sx_npc_death" DurationType="OneShot" DurationMin="2.473958" DurationMax="2.473958">
+					<IncludedMemoryFiles>
+						<File Id="673832738" Language="SFX">
+							<ShortName>Exports\sx_npc_death_1.wav</ShortName>
+							<Path>SFX\Exports\sx_npc_death_1_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1069431850" Language="SFX" Hash="1725905755">
+			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
+			<ShortName>Player</ShortName>
+			<Path>Player.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3714387978" Name="Play_Switch_sx_plr_dodgeroll" ObjectPath="\Events\Default Work Unit\Player\Play_Switch_sx_plr_dodgeroll" DurationType="OneShot" DurationMin="0.369385" DurationMax="0.391349">
+					<IncludedMemoryFiles>
+						<File Id="233490610" Language="SFX">
+							<ShortName>Exports\sx_plr_dodgeroll_3.wav</ShortName>
+							<Path>SFX\Exports\sx_plr_dodgeroll_3_DE278C40.wem</Path>
+						</File>
+						<File Id="234822360" Language="SFX">
+							<ShortName>Exports\sx_plr_dodgeroll_1.wav</ShortName>
+							<Path>SFX\Exports\sx_plr_dodgeroll_1_DE278C40.wem</Path>
+						</File>
+						<File Id="474301021" Language="SFX">
+							<ShortName>Exports\sx_plr_dodgeroll_4.wav</ShortName>
+							<Path>SFX\Exports\sx_plr_dodgeroll_4_DE278C40.wem</Path>
+						</File>
+						<File Id="940366461" Language="SFX">
+							<ShortName>Exports\sx_plr_dodgeroll_2.wav</ShortName>
+							<Path>SFX\Exports\sx_plr_dodgeroll_2_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2412697160" Name="Play_Switch_sx_plr_footstep" ObjectPath="\Events\Default Work Unit\Player\Play_Switch_sx_plr_footstep" DurationType="OneShot" DurationMin="0.247943" DurationMax="0.262687">
+					<IncludedMemoryFiles>
+						<File Id="502552796" Language="SFX">
+							<ShortName>Exports\sx_plr_footstep_2.wav</ShortName>
+							<Path>SFX\Exports\sx_plr_footstep_2_DE278C40.wem</Path>
+						</File>
+						<File Id="768216521" Language="SFX">
+							<ShortName>Exports\sx_plr_footstep_1.wav</ShortName>
+							<Path>SFX\Exports\sx_plr_footstep_1_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3330832805" Name="Play_Switch_sx_plr_hurt" ObjectPath="\Events\Default Work Unit\Player\Play_Switch_sx_plr_hurt" DurationType="OneShot" DurationMin="0.384565" DurationMax="0.530734">
+					<IncludedMemoryFiles>
+						<File Id="378487869" Language="SFX">
+							<ShortName>Exports\sx_plr_hurt_3.wav</ShortName>
+							<Path>SFX\Exports\sx_plr_hurt_3_DE278C40.wem</Path>
+						</File>
+						<File Id="399763780" Language="SFX">
+							<ShortName>Exports\sx_plr_hurt_2.wav</ShortName>
+							<Path>SFX\Exports\sx_plr_hurt_2_DE278C40.wem</Path>
+						</File>
+						<File Id="841877247" Language="SFX">
+							<ShortName>Exports\sx_plr_hurt_1.wav</ShortName>
+							<Path>SFX\Exports\sx_plr_hurt_1_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1837394887" Name="Play_sx_plr_death" ObjectPath="\Events\Default Work Unit\Player\Play_sx_plr_death" DurationType="OneShot" DurationMin="1.335856" DurationMax="1.415291">
+					<IncludedMemoryFiles>
+						<File Id="949503194" Language="SFX">
+							<ShortName>Exports\sx_plr_death_1.wav</ShortName>
+							<Path>SFX\Exports\sx_plr_death_1_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1467963052" Language="SFX" Hash="3619646361">
+			<ObjectPath>\SoundBanks\Default Work Unit\Weapons</ObjectPath>
+			<ShortName>Weapons</ShortName>
+			<Path>Weapons.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2216258413" Name="Play_Switch_sx_wpn_dagger" ObjectPath="\Events\Default Work Unit\Weapons\Play_Switch_sx_wpn_dagger" DurationType="OneShot" DurationMin="0.297752" DurationMax="0.422727">
+					<IncludedMemoryFiles>
+						<File Id="8997871" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_2.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_2_DE278C40.wem</Path>
+						</File>
+						<File Id="200834632" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_1_DE278C40.wem</Path>
+						</File>
+						<File Id="378003308" Language="SFX">
+							<ShortName>Exports\sx_wpn_dagger_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_dagger_1_DE278C40.wem</Path>
+						</File>
+						<File Id="409188198" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_3.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_3_DE278C40.wem</Path>
+						</File>
+						<File Id="818685731" Language="SFX">
+							<ShortName>Exports\sx_wpn_dagger_2.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_dagger_2_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4044352437" Name="Play_Switch_sx_wpn_gsword" ObjectPath="\Events\Default Work Unit\Weapons\Play_Switch_sx_wpn_gsword" DurationType="OneShot" DurationMin="2.022663" DurationMax="2.081931">
+					<IncludedMemoryFiles>
+						<File Id="8997871" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_2.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_2_DE278C40.wem</Path>
+						</File>
+						<File Id="15716606" Language="SFX">
+							<ShortName>Exports\sx_wpn_gsword_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_gsword_1_DE278C40.wem</Path>
+						</File>
+						<File Id="59430619" Language="SFX">
+							<ShortName>Exports\sx_wpn_gsword_3.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_gsword_3_DE278C40.wem</Path>
+						</File>
+						<File Id="200834632" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_1_DE278C40.wem</Path>
+						</File>
+						<File Id="290282747" Language="SFX">
+							<ShortName>Exports\sx_wpn_gsword_2.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_gsword_2_DE278C40.wem</Path>
+						</File>
+						<File Id="409188198" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_3.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_3_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1593694525" Name="Play_Switch_sx_wpn_whoosh" ObjectPath="\Events\Default Work Unit\Weapons\Play_Switch_sx_wpn_whoosh" DurationType="OneShot" DurationMin="0.251549" DurationMax="0.385739">
+					<IncludedMemoryFiles>
+						<File Id="8997871" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_2.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_2_DE278C40.wem</Path>
+						</File>
+						<File Id="200834632" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_1_DE278C40.wem</Path>
+						</File>
+						<File Id="409188198" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_3.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_3_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1403214302" Name="Play_sx_wpn_bow" ObjectPath="\Events\Default Work Unit\Weapons\Play_sx_wpn_bow" DurationType="OneShot" DurationMin="2.269079" DurationMax="2.335568">
+					<IncludedMemoryFiles>
+						<File Id="8997871" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_2.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_2_DE278C40.wem</Path>
+						</File>
+						<File Id="200834632" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_1_DE278C40.wem</Path>
+						</File>
+						<File Id="409188198" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_3.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_3_DE278C40.wem</Path>
+						</File>
+						<File Id="703760147" Language="SFX">
+							<ShortName>Exports\sx_wpn_bow_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_bow_1_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2153006489" Name="Play_sx_wpn_shield" ObjectPath="\Events\Default Work Unit\Weapons\Play_sx_wpn_shield" DurationType="OneShot" DurationMin="0.374757" DurationMax="0.385739">
+					<IncludedMemoryFiles>
+						<File Id="8997871" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_2.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_2_DE278C40.wem</Path>
+						</File>
+						<File Id="200834632" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_1_DE278C40.wem</Path>
+						</File>
+						<File Id="409188198" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_3.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_3_DE278C40.wem</Path>
+						</File>
+						<File Id="521354437" Language="SFX">
+							<ShortName>Exports\sx_wpn_shield_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_shield_1_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2719353785" Name="Play_sx_wpn_spear" ObjectPath="\Events\Default Work Unit\Weapons\Play_sx_wpn_spear" DurationType="OneShot" DurationMin="1.878921" DurationMax="1.933977">
+					<IncludedMemoryFiles>
+						<File Id="8997871" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_2.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_2_DE278C40.wem</Path>
+						</File>
+						<File Id="200834632" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_1_DE278C40.wem</Path>
+						</File>
+						<File Id="310155815" Language="SFX">
+							<ShortName>Exports\sx_wpn_spear_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_spear_1_DE278C40.wem</Path>
+						</File>
+						<File Id="409188198" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_3.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_3_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2999961825" Name="Play_sx_wpn_sword" ObjectPath="\Events\Default Work Unit\Weapons\Play_sx_wpn_sword" DurationType="OneShot" DurationMin="0.282351" DurationMax="0.385739">
+					<IncludedMemoryFiles>
+						<File Id="8997871" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_2.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_2_DE278C40.wem</Path>
+						</File>
+						<File Id="200834632" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_1_DE278C40.wem</Path>
+						</File>
+						<File Id="409188198" Language="SFX">
+							<ShortName>Exports\sx_wpn_whoosh_3.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_whoosh_3_DE278C40.wem</Path>
+						</File>
+						<File Id="925207531" Language="SFX">
+							<ShortName>Exports\sx_wpn_sword_1.wav</ShortName>
+							<Path>SFX\Exports\sx_wpn_sword_1_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1551306167" Language="SFX" Hash="236499739">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="298035903" Name="Play_sx_ui_hover" ObjectPath="\Events\Default Work Unit\UI\Play_sx_ui_hover" DurationType="OneShot" DurationMin="0.255208" DurationMax="0.255208">
+					<IncludedMemoryFiles>
+						<File Id="172438306" Language="SFX">
+							<ShortName>Exports\sx_ui_hover_1.wav</ShortName>
+							<Path>SFX\Exports\sx_ui_hover_1_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1031467199" Name="Play_sx_ui_select" ObjectPath="\Events\Default Work Unit\UI\Play_sx_ui_select" DurationType="OneShot" DurationMin="0.380208" DurationMax="0.380208">
+					<IncludedMemoryFiles>
+						<File Id="862651131" Language="SFX">
+							<ShortName>Exports\sx_ui_select_1.wav</ShortName>
+							<Path>SFX\Exports\sx_ui_select_1_DE278C40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

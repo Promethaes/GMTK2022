@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{43E656FB-8232-444D-B8EF-EBB7CBC7C0D6}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{43E656FB-8232-444D-B8EF-EBB7CBC7C0D6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{43E656FB-8232-444D-B8EF-EBB7CBC7C0D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="UI" ID="{75467A96-9FAF-4F26-B442-BD27DAE18E12}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_sx_ui_select" ID="{826ADCA8-8253-4BBB-B0ED-8AB711544CA6}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sx_ui_hover" ID="{132343B5-F37C-4E4F-93AE-50FDEB17C31F}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Player" ID="{4724A88B-09C2-469F-B5E3-ECEDA0AD832E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Switch_sx_plr_dodgeroll" ID="{33B9685B-1033-435C-94C5-1CCDB928C261}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Switch_sx_plr_hurt" ID="{16253734-B367-43DC-9DE6-1D5970359434}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sx_plr_death" ID="{8CE6DE90-89DF-46D5-91AF-A7054AA5331B}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Switch_sx_plr_footstep" ID="{5868E65C-B27E-4EF2-BA47-F8F0293B2C16}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="NPCs" ID="{D25F6924-7C66-4C5E-93D6-DCCDE1C7B0A9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Switch_sx_npc_hurt" ID="{D51D7D4B-2354-44B4-8658-03945A64173D}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sx_npc_attackcue" ID="{373F0627-1807-46E2-A31A-F5030CA299AA}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Switch_sx_npc_footstep" ID="{02A44F3E-9162-4742-ADB0-3F6C5EB62B1A}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sx_npc_death" ID="{64A0FCCB-1EC3-4D36-BE5D-81C7E38C1724}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Weapons" ID="{421E1C1F-782E-407F-9C6E-8BF1DE6179B4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Switch_sx_wpn_gsword" ID="{09BF756D-9BD8-4325-9881-DDFB48BFA84C}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Switch_sx_wpn_dagger" ID="{CC0FD83E-58F5-4745-B2F5-E899BDE47A05}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sx_wpn_bow" ID="{CE66B819-90AB-4983-B38B-83546DCC15E2}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Switch_sx_wpn_whoosh" ID="{9ED4A7AB-1E35-4C66-9AC1-08CBE8319459}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sx_wpn_sword" ID="{6EB56416-960C-4CE7-9042-C2371A58DD18}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sx_wpn_shield" ID="{2146E27B-6BAF-4CEC-A89F-FDF3D14456AC}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sx_wpn_spear" ID="{D572068A-B2B0-4D69-B311-4CA438D61025}" WorkUnitID="{06FD84E9-553D-4F19-8363-BCEB98AB5EA6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

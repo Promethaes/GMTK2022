@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1837394887	Play_sx_plr_death			\Default Work Unit\Player\Play_sx_plr_death	
+	2412697160	Play_Switch_sx_plr_footstep			\Default Work Unit\Player\Play_Switch_sx_plr_footstep	
+	3330832805	Play_Switch_sx_plr_hurt			\Default Work Unit\Player\Play_Switch_sx_plr_hurt	
+	3714387978	Play_Switch_sx_plr_dodgeroll			\Default Work Unit\Player\Play_Switch_sx_plr_dodgeroll	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	233490610	sx_plr_dodgeroll_3	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_plr_dodgeroll_3_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Player\Switch_sx_plr_dodgeroll\sx_plr_dodgeroll_3		73128
+	234822360	sx_plr_dodgeroll_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_plr_dodgeroll_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Player\Switch_sx_plr_dodgeroll\sx_plr_dodgeroll_1		73208
+	378487869	sx_plr_hurt_3	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_plr_hurt_3_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Player\Switch_sx_plr_hurt\sx_plr_hurt_3		97128
+	399763780	sx_plr_hurt_2	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_plr_hurt_2_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Player\Switch_sx_plr_hurt\sx_plr_hurt_2		99128
+	474301021	sx_plr_dodgeroll_4	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_plr_dodgeroll_4_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Player\Switch_sx_plr_dodgeroll\sx_plr_dodgeroll_4		73128
+	502552796	sx_plr_footstep_2	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_plr_footstep_2_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Player\Switch_sx_plr_footstep\sx_plr_footstep_2		49128
+	768216521	sx_plr_footstep_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_plr_footstep_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Player\Switch_sx_plr_footstep\sx_plr_footstep_1		49208
+	841877247	sx_plr_hurt_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_plr_hurt_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Player\Switch_sx_plr_hurt\sx_plr_hurt_1		76192
+	940366461	sx_plr_dodgeroll_2	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_plr_dodgeroll_2_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Player\Switch_sx_plr_dodgeroll\sx_plr_dodgeroll_2		73128
+	949503194	sx_plr_death_1	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Exports\sx_plr_death_1_DE278C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exports\Player\sx_plr_death_1		264208
+
