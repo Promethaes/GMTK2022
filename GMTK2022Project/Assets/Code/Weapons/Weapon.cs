@@ -60,6 +60,11 @@ public class Weapon : MonoBehaviour
         return _cooldown;
     }
 
+    public float GetFinishedAttackCooldown()
+    {
+        return finishedAttackCooldown;
+    }
+
     protected bool IsAttacking()
     {
         return _attacking;
