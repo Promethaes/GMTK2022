@@ -7802,6 +7802,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 170364856}
     m_Modifications:
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
     - target: {fileID: 5290173502071189830, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -9258,7 +9268,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onEntryTriggered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 90858985707101637}
+        m_TargetAssemblyTypeName: SceneNavigation, Assembly-CSharp
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &477212032
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9397,6 +9419,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 170364856}
     m_Modifications:
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
     - target: {fileID: 5290173502071189830, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -9476,6 +9508,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386916538}
     m_Modifications:
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
     - target: {fileID: 5290173502071189830, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -25282,6 +25324,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 728403127919042149}
     m_Modifications:
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
     - target: {fileID: 5290173502071189830, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -34330,6 +34382,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386916538}
     m_Modifications:
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
     - target: {fileID: 5290173502071189830, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -34837,6 +34899,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 170364856}
     m_Modifications:
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
     - target: {fileID: 5290173502071189830, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -34917,6 +34989,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 170364856}
     m_Modifications:
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
     - target: {fileID: 5290173502071189830, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -34989,6 +35071,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5290173502071189882, guid: 0c4671ca1337b634995ee7c72f3510cb,
     type: 3}
   m_PrefabInstance: {fileID: 1486120206}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1511956602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4317037351060418504, guid: 52956df3f0a809048a36447f3db12dae,
+    type: 3}
+  m_PrefabInstance: {fileID: 90858985707101636}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1513671346
 GameObject:
@@ -35309,6 +35397,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386916538}
     m_Modifications:
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
     - target: {fileID: 5290173502071189830, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -37200,6 +37298,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386916538}
     m_Modifications:
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
     - target: {fileID: 5290173502071189830, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -42818,6 +42926,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 728403127919042149}
     m_Modifications:
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
+    - target: {fileID: 5290173502071189827, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1511956602}
     - target: {fileID: 5290173502071189830, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -48472,11 +48590,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -12.222223
       objectReference: {fileID: 0}
-    - target: {fileID: 4317037351060418506, guid: 52956df3f0a809048a36447f3db12dae,
-        type: 3}
-      propertyPath: orthographic size
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 4317037351060418507, guid: 52956df3f0a809048a36447f3db12dae,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -48544,6 +48657,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52956df3f0a809048a36447f3db12dae, type: 3}
+--- !u!114 &90858985707101637 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 663670311541141711, guid: 52956df3f0a809048a36447f3db12dae,
+    type: 3}
+  m_PrefabInstance: {fileID: 90858985707101636}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c3b02b9ccafad4db3e6ef4eea33ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &728403127919042147
 PrefabInstance:
   m_ObjectHideFlags: 0

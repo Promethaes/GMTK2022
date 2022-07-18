@@ -18,4 +18,8 @@ public class SceneNavigation : MonoBehaviour
     {
         StartCoroutine(Wait(0));
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
