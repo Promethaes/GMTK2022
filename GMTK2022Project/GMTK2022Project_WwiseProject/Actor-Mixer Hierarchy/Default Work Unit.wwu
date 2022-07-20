@@ -258,6 +258,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -746,6 +751,13 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Switch_sx_npc_footstep" ID="{BD7D8423-B6E1-47BB-9F58-C2D00B548A59}" ShortID="392518137">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA02D691-DCD4-49B1-B45A-E11F00759FE2}"/>
@@ -844,8 +856,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1166,7 +1181,6 @@
 								</RandomSequenceContainer>
 								<Sound Name="sx_plr_death_1" ID="{1D385AEE-0E1A-4060-9A35-844C2284BB78}" ShortID="477396819">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1179,6 +1193,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
