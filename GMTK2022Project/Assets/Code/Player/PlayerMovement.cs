@@ -26,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField]
 	ParticleSystem walkEffect = null;
 
+	[Header("Animator")]
+	[SerializeField] Animator animator = null;
+
 	Rigidbody2D m_rigidbody;
 
 	bool m_isRolling = false;
@@ -68,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
 	    }
 
 	    m_rigidbody.velocity = moveAxis * moveSpeed;
+		animator.SetFloat("plr_speed", m_rigidbody.velocity.magnitude);
 
 	    if (Input.GetButton("Roll") && CanRoll())
 	    {
@@ -78,6 +82,7 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator RollRoutine(Vector2 moveAxis)
     {
 	    m_isRolling = true;
+		animator.SetBool("is_rolling", true);
 
 		onRollStarted?.Invoke();
 
@@ -93,6 +98,7 @@ public class PlayerMovement : MonoBehaviour
 	    m_lastTimeRollEnded = Time.time;
 	    
 		m_isRolling = false;
+		animator.SetBool("is_rolling", false);
 
 		onRollEnded?.Invoke();
     }

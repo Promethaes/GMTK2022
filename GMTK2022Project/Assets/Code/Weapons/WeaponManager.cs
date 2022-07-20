@@ -16,6 +16,9 @@ public class WeaponManager : MonoBehaviour
     [SerializeField] List<Weapon> weapons = new List<Weapon>();
     [SerializeField] GameObject ownerEntity = null;
 
+    [Header("Animator")]
+    [SerializeField] Animator animator;
+
     [HideInInspector] public bool canAttack = true;
 
     float _internalDowntime = 0.0f;
@@ -28,6 +31,8 @@ public class WeaponManager : MonoBehaviour
 
     private void Update()
     {
+        if (!currentWeapon || !currentWeapon.gameObject.activeSelf)
+            animator.SetInteger("current_weapon", 0);
         _internalDowntime += Time.deltaTime;
         if (_internalDowntime >= downtime)
             OnFinishAttack.Invoke();
@@ -60,6 +65,8 @@ public class WeaponManager : MonoBehaviour
     public void SetCurrentWeapon(int index)
     {
         currentWeapon = weapons[index];
+
+        animator.SetInteger("current_weapon", index + 1);
     }
 
     public void RollForWeapon()
@@ -68,7 +75,7 @@ public class WeaponManager : MonoBehaviour
         int result = Random.Range(0, weapons.Count);
         while (currentWeapon == weapons[result])
             result = Random.Range(0, weapons.Count);
-        currentWeapon = weapons[result];
+        SetCurrentWeapon(result);
         currentWeapon.gameObject.SetActive(true);
     }
 
