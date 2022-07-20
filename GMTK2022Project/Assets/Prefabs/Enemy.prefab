@@ -388,6 +388,11 @@ PrefabInstance:
       propertyPath: weaponManagerTransform
       value: 
       objectReference: {fileID: 5290173502071189830}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 4906299737918931049}
     - target: {fileID: 3184181796717169514, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_Name
@@ -481,6 +486,12 @@ MonoBehaviour:
 --- !u!4 &5290173502855237091 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3184181796314645088, guid: 76022bd7f8032c84399898021aa8454e,
+    type: 3}
+  m_PrefabInstance: {fileID: 7303154953655635843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4906299737918931049 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2399478662291738602, guid: 76022bd7f8032c84399898021aa8454e,
     type: 3}
   m_PrefabInstance: {fileID: 7303154953655635843}
   m_PrefabAsset: {fileID: 0}

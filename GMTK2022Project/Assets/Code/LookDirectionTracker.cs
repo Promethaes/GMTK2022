@@ -4,27 +4,36 @@ using UnityEngine;
 
 public class LookDirectionTracker : MonoBehaviour
 {
-	[SerializeField]
-	private Transform playerTransform;
+    [SerializeField]
+    private Transform playerTransform;
+    [SerializeField] WeaponManager weaponManager;
 
-	[SerializeField]
-	private float lookAheadDistance = 3f;
+    [SerializeField]
+    private float lookAheadDistance = 3f;
 
-	private Camera m_mainCamera;
+    private Camera m_mainCamera;
 
-	void Awake()
-	{
-		m_mainCamera = Camera.main;
-	}
-	
-	void Update()
+    void Awake()
     {
-	    Vector3 mousePos = m_mainCamera.ScreenToWorldPoint(Input.mousePosition);
-	    mousePos.z = 0f;
+        m_mainCamera = Camera.main;
+    }
 
-	    Vector3 newDirection = Vector3.Normalize(mousePos - playerTransform.position);
+    void Update()
+    {
+        Vector3 mousePos = m_mainCamera.ScreenToWorldPoint(Input.mousePosition);
+        mousePos.z = 0f;
 
-		var pos = playerTransform.position + (newDirection * lookAheadDistance);
-	    transform.position = playerTransform.position + (newDirection * lookAheadDistance);
+        Vector3 newDirection = Vector3.Normalize(mousePos - playerTransform.position);
+
+        var pos = playerTransform.position + (newDirection * lookAheadDistance);
+        transform.position = playerTransform.position + (newDirection * lookAheadDistance);
+        var angle = Mathf.Atan2(newDirection.y, newDirection.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+        angle = Mathf.Abs(angle);
+
+        if (weaponManager?.GetCurrentWeapon())
+            weaponManager.GetCurrentWeapon().spriteRenderer.flipY = angle >= 90.0f;
+
     }
 }
