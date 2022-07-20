@@ -110,14 +110,16 @@ public class EnemyMovement : MonoBehaviour
     {
 	    if (m_agent.velocity.sqrMagnitude < 0.01f)
 	    {
-		    //m_animator.Play(idleAnim.name);
+            //m_animator.Play(idleAnim.name);
+            m_animator.SetBool("isMoving", false);
 
 		    m_renderer.flipX = m_playerTracker.PlayerPosition.x > transform.position.x;
 	    }
 	    else
 	    {
-		    //m_animator.Play(chaseAnim.name);
-	    }
+            //m_animator.Play(chaseAnim.name);
+            m_animator.SetBool("isMoving", true);
+        }
 
 	    m_agent.stoppingDistance = stoppingDistance;
 
