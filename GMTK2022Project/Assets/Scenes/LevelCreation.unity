@@ -8285,6 +8285,12 @@ MonoBehaviour:
   entryTrigger: {fileID: 1348798220}
   exitBlockers:
   - {fileID: 1879533389}
+--- !u!4 &231072983 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5290173502698016430, guid: 0c4671ca1337b634995ee7c72f3510cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1186874324}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &278042779
 GameObject:
   m_ObjectHideFlags: 0
@@ -25528,6 +25534,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5290173502071189837, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: swordTip
+      value: 
+      objectReference: {fileID: 231072983}
     - target: {fileID: 5290173502071189882, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_Name
@@ -43225,6 +43236,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5290173502071189837, guid: 0c4671ca1337b634995ee7c72f3510cb,
+        type: 3}
+      propertyPath: swordTip
+      value: 
+      objectReference: {fileID: 2017956861}
     - target: {fileID: 5290173502071189882, guid: 0c4671ca1337b634995ee7c72f3510cb,
         type: 3}
       propertyPath: m_Name
@@ -47884,6 +47900,12 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &2017956861 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5290173503546833912, guid: 0c4671ca1337b634995ee7c72f3510cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1980532972}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2018140796
 GameObject:
   m_ObjectHideFlags: 0
@@ -48839,7 +48861,7 @@ PrefabInstance:
     - target: {fileID: 6529689760891807555, guid: cc2bc10e4c1f8264992bccfe6380f6fa,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8693657611180988301, guid: cc2bc10e4c1f8264992bccfe6380f6fa,
         type: 3}

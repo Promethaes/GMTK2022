@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 5290173502071189827}
   - component: {fileID: 5290173502071189837}
   - component: {fileID: 8971432649918882076}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -276,7 +276,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   weapon: {fileID: 5290173502720099563}
-  weaponHitbox: {fileID: 5290173502855237091}
+  swordTip: {fileID: 0}
   attackDistance: 5
 --- !u!95 &8971432649918882076
 Animator:
@@ -405,6 +405,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 4116585857251360361, guid: cda207dd48fd49142b9c942187a2cf4e,
+        type: 3}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
       propertyPath: weaponManagerTransform
       value: 
       objectReference: {fileID: 5290173502071189830}
@@ -503,12 +509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28cbead1bd5e8414386c3385fb1796d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &5290173502855237091 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3184181796314645088, guid: 76022bd7f8032c84399898021aa8454e,
-    type: 3}
-  m_PrefabInstance: {fileID: 7303154953655635843}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4906299737918931049 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2399478662291738602, guid: 76022bd7f8032c84399898021aa8454e,
