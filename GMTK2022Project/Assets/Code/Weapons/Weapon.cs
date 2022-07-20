@@ -7,6 +7,7 @@ public class Weapon : MonoBehaviour
 {
     [Header("References")]
     public GameObject weaponOwner = null;
+    public SpriteRenderer spriteRenderer = null;
 
     [Tooltip("-1 for infinite")]
     [SerializeField] protected float cooldown = 0.0f;
