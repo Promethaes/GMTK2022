@@ -65,7 +65,6 @@ public class WeaponManager : MonoBehaviour
     public void SetCurrentWeapon(int index)
     {
         currentWeapon = weapons[index];
-
         animator.SetInteger("current_weapon", index + 1);
     }
 

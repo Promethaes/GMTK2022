@@ -34,7 +34,11 @@ public class LookDirectionTracker : MonoBehaviour
 
         float sign = 1.0f;
         sign = angle >= 90.0f ? -1.0f : 1.0f;
-        flippingObject.localScale = new Vector3(1.0f, sign, 1.0f);
+		var tempScale = flippingObject.localScale;
+		tempScale.x = Mathf.Abs(tempScale.x);
+		tempScale.y = Mathf.Abs(tempScale.y) * sign;
+		tempScale.z = Mathf.Abs(tempScale.z);
+        flippingObject.localScale = tempScale;
 
     }
 }
