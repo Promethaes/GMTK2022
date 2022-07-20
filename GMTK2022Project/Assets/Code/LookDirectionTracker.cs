@@ -6,7 +6,7 @@ public class LookDirectionTracker : MonoBehaviour
 {
     [SerializeField]
     private Transform playerTransform;
-    [SerializeField] WeaponManager weaponManager;
+    [SerializeField] Transform flippingObject;
 
     [SerializeField]
     private float lookAheadDistance = 3f;
@@ -32,8 +32,9 @@ public class LookDirectionTracker : MonoBehaviour
 
         angle = Mathf.Abs(angle);
 
-        if (weaponManager?.GetCurrentWeapon())
-            weaponManager.GetCurrentWeapon().spriteRenderer.flipY = angle >= 90.0f;
+        float sign = 1.0f;
+        sign = angle >= 90.0f ? -1.0f : 1.0f;
+        flippingObject.localScale = new Vector3(1.0f, sign, 1.0f);
 
     }
 }
