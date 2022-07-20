@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 3343527321381272452}
   - component: {fileID: 3343527321381272475}
   - component: {fileID: 3398064236743629569}
-  m_Layer: 6
+  m_Layer: 21
   m_Name: PlayerObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -748,7 +748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8c419bf92690e4da0748fba58154df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 6
   health: 0
   OnTakeDamage:
     m_PersistentCalls:

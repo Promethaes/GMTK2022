@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5290173502071189826}
   - component: {fileID: 5290173502071189827}
   - component: {fileID: 5290173502071189837}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +275,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   weapon: {fileID: 5290173502720099563}
-  weaponHitbox: {fileID: 5290173502855237091}
+  swordTip: {fileID: 0}
   attackDistance: 5
 --- !u!1001 &3632437576592833107
 PrefabInstance:
@@ -383,11 +383,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5290173502071189830}
     m_Modifications:
+    - target: {fileID: 3184181796314645088, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796314645088, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796314645088, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796694163757, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 4116585857251360361, guid: cda207dd48fd49142b9c942187a2cf4e,
+        type: 3}
     - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: weaponManagerTransform
       value: 
       objectReference: {fileID: 5290173502071189830}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -483,12 +514,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28cbead1bd5e8414386c3385fb1796d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &5290173502855237091 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3184181796314645088, guid: 76022bd7f8032c84399898021aa8454e,
-    type: 3}
-  m_PrefabInstance: {fileID: 7303154953655635843}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4906299737918931049 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2399478662291738602, guid: 76022bd7f8032c84399898021aa8454e,

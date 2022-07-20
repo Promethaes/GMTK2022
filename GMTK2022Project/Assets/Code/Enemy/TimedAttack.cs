@@ -7,7 +7,7 @@ public class TimedAttack : MonoBehaviour
 {
     [SerializeField] UnityEvent attackEvent;
     [SerializeField] Weapon weapon;
-    [SerializeField] Transform weaponHitbox;
+    [SerializeField] Transform swordTip;
 
     [SerializeField] float attackDistance = 5.0f;
 
@@ -34,7 +34,8 @@ public class TimedAttack : MonoBehaviour
                 }
                 yield return new WaitForSeconds(_attackTime);
                 var direction = (_playerTransform.position - transform.position).normalized;
-                weaponHitbox.transform.localPosition = new Vector3(0.0f,0.0f,0.0f) + direction*1.3f;
+                float angle = Vector3.SignedAngle(-Vector3.up,direction,Vector3.forward);
+                swordTip.transform.rotation = Quaternion.AngleAxis(angle,Vector3.forward);
                 attackEvent.Invoke();
             }
         }
