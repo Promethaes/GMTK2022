@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="833916109" Language="SFX" Hash="4062310661">
+		<SoundBank Id="833916109" Language="SFX" Hash="1997645556">
 			<ObjectPath>\SoundBanks\Default Work Unit\NPCs</ObjectPath>
 			<ShortName>NPCs</ShortName>
 			<Path>NPCs.bnk</Path>
@@ -62,7 +62,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1069431850" Language="SFX" Hash="937880213">
+		<SoundBank Id="1069431850" Language="SFX" Hash="1975071647">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
@@ -87,7 +87,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2412697160" Name="Play_Switch_sx_plr_footstep" ObjectPath="\Events\Default Work Unit\Player\Play_Switch_sx_plr_footstep" DurationType="Infinite">
+				<Event Id="2412697160" Name="Play_Switch_sx_plr_footstep" ObjectPath="\Events\Default Work Unit\Player\Play_Switch_sx_plr_footstep" DurationType="OneShot" DurationMin="0.247943" DurationMax="0.262687">
 					<IncludedMemoryFiles>
 						<File Id="502552796" Language="SFX">
 							<ShortName>Exports\sx_plr_footstep_2.wav</ShortName>
@@ -119,11 +119,11 @@
 						<ActionSetStateEntry Id="3182539833" Name="OnHit" ObjectPath="\States\Default Work Unit\OnHit\OnHit"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1837394887" Name="Play_sx_plr_death" ObjectPath="\Events\Default Work Unit\Player\Play_sx_plr_death" DurationType="Infinite">
+				<Event Id="1837394887" Name="Play_sx_plr_death" ObjectPath="\Events\Default Work Unit\Player\Play_sx_plr_death" DurationType="OneShot" DurationMin="1.335856" DurationMax="1.415291">
 					<IncludedMemoryFiles>
 						<File Id="949503194" Language="SFX">
 							<ShortName>Exports\sx_plr_death_1.wav</ShortName>
-							<Path>SFX\Exports\sx_plr_death_1_7C50458A.wem</Path>
+							<Path>SFX\Exports\sx_plr_death_1_DE278C40.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -142,7 +142,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1467963052" Language="SFX" Hash="129614594">
+		<SoundBank Id="1467963052" Language="SFX" Hash="3622620066">
 			<ObjectPath>\SoundBanks\Default Work Unit\Weapons</ObjectPath>
 			<ShortName>Weapons</ShortName>
 			<Path>Weapons.bnk</Path>
@@ -297,7 +297,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1551306167" Language="SFX" Hash="2765394994">
+		<SoundBank Id="1551306167" Language="SFX" Hash="1114262171">
 			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
@@ -320,7 +320,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="1547403047">
+		<SoundBank Id="3991942870" Language="SFX" Hash="2592895148">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
