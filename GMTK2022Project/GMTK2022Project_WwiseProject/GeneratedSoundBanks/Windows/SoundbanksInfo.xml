@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="833916109" Language="SFX" Hash="2025904035">
+		<SoundBank Id="833916109" Language="SFX" Hash="1997645556">
 			<ObjectPath>\SoundBanks\Default Work Unit\NPCs</ObjectPath>
 			<ShortName>NPCs</ShortName>
 			<Path>NPCs.bnk</Path>
@@ -62,7 +62,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1069431850" Language="SFX" Hash="3448402765">
+		<SoundBank Id="1069431850" Language="SFX" Hash="1975071647">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>

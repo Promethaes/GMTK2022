@@ -5,8 +5,16 @@ using UnityEngine;
 public class WwiseObjectForAnimator : MonoBehaviour
 {
     [SerializeField] AK.Wwise.Event wwiseEvent;
+    [SerializeField] float footstepTime = 1.0f;
 
-    void Start()
+    static uint[] playingIds = new uint[50];
+
+    void OnEnable()
+    {
+        FootstepRoutine();
+    }
+
+    IEnumerator FootstepRoutine()
     {
         if (wwiseEvent.IsValid())
         {
@@ -17,5 +25,10 @@ public class WwiseObjectForAnimator : MonoBehaviour
         {
             Debug.LogWarning("Warning: Missing Event for Wwise Obj: " + wwiseEvent);
         }
+
+        yield return new WaitForSeconds(footstepTime);
+
+        Debug.Log("Stopped Wwise Event: " + wwiseEvent);
+        gameObject.GetComponent<WwiseObjectForAnimator>().enabled = false;
     }
 }

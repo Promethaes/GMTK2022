@@ -9,7 +9,7 @@ public class WwiseObject : MonoBehaviour
 
     public void PostWwiseEvent() {
         if (wwiseEvent.IsValid()) {
-            Debug.Log("Played Wwise Event: " + wwiseEvent);
+            //Debug.Log("Played Wwise Event: " + wwiseEvent);
             wwiseEvent.Post(Camera.main.gameObject);
         }
         else {

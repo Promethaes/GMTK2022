@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
 	Rigidbody2D m_rigidbody;
 
 	bool m_isRolling = false;
+	bool m_isMoving = false;
 	
 	float m_lastTimeRollEnded = Mathf.NegativeInfinity;
 
@@ -39,6 +40,11 @@ public class PlayerMovement : MonoBehaviour
 	{
 		get => m_isRolling;
 		set => m_isRolling = value;
+	}
+	public bool IsMoving
+	{
+		get => m_isMoving;
+		set => m_isMoving = value;
 	}
 
 	void Awake()
@@ -59,10 +65,12 @@ public class PlayerMovement : MonoBehaviour
 	    if (Mathf.Approximately(moveAxis.sqrMagnitude, 0f))
 	    {
 		    walkEffect.Stop();
+			m_isMoving = false;
 	    }
 		else if(walkEffect.isStopped)
 	    {
 			walkEffect.Play();
+			m_isMoving = true;
 		}
 
 		if (moveAxis.sqrMagnitude > 1f)

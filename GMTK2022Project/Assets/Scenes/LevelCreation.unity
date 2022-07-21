@@ -20564,6 +20564,31 @@ MonoBehaviour:
   entryTrigger: {fileID: 1195252541}
   exitBlockers:
   - {fileID: 1128313385}
+--- !u!1 &1021095780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3343527321381272477, guid: 212b78ef7eb18224e8590a9c33a9d0e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1498961174519410908}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1021095789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021095780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826024b1bb2dc7741a5f535180420ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1531abaaacf3bf0478233a04777e9cd0,
+      type: 2}
+  footstepTime: 0.35
+  m_isPlayer: 0
 --- !u!1001 &1056579185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49093,7 +49118,8 @@ PrefabInstance:
       propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 409455086786598932, guid: 212b78ef7eb18224e8590a9c33a9d0e4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 212b78ef7eb18224e8590a9c33a9d0e4, type: 3}
 --- !u!20 &1498961174519410909 stripped
 Camera:
@@ -49107,7 +49133,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1498961174519410908}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1021095780}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd8c419bf92690e4da0748fba58154df, type: 3}

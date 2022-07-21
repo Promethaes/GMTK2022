@@ -25,6 +25,14 @@ public class EnemyMovement : MonoBehaviour
     float m_randomDestinationCooldown = 6f;
     float m_randomDestinationTimer;
 
+    bool m_isMoving = false;
+
+    public bool IsMoving
+    {
+        get => m_isMoving;
+        set => m_isMoving = value;
+    }
+
     protected virtual void Awake()
     {
         m_playerTracker = GetComponent<PlayerTracker>();
@@ -112,6 +120,7 @@ public class EnemyMovement : MonoBehaviour
 	    {
             //m_animator.Play(idleAnim.name);
             m_animator.SetBool("isMoving", false);
+            m_isMoving = false;
 
 		    m_renderer.flipX = m_playerTracker.PlayerPosition.x > transform.position.x;
 	    }
@@ -119,6 +128,7 @@ public class EnemyMovement : MonoBehaviour
 	    {
             //m_animator.Play(chaseAnim.name);
             m_animator.SetBool("isMoving", true);
+            m_isMoving = true;
         }
 
 	    m_agent.stoppingDistance = stoppingDistance;
