@@ -8183,7 +8183,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnAllDead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 209159825}
+      objectReference: {fileID: 209159828}
     - target: {fileID: 8905239809175038050, guid: cc2bc10e4c1f8264992bccfe6380f6fa,
         type: 3}
       propertyPath: OnAllDead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -8192,17 +8192,17 @@ PrefabInstance:
     - target: {fileID: 8905239809175038050, guid: cc2bc10e4c1f8264992bccfe6380f6fa,
         type: 3}
       propertyPath: OnAllDead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: SetBlockersActive
       objectReference: {fileID: 0}
     - target: {fileID: 8905239809175038050, guid: cc2bc10e4c1f8264992bccfe6380f6fa,
         type: 3}
       propertyPath: OnAllDead.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: Room, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8905239809175038050, guid: cc2bc10e4c1f8264992bccfe6380f6fa,
         type: 3}
       propertyPath: OnAllDead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8905239809175038050, guid: cc2bc10e4c1f8264992bccfe6380f6fa,
         type: 3}
@@ -9550,7 +9550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657943348}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1626385757}
@@ -25654,7 +25654,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195252540}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35, y: 0.35, z: 0}
+  m_LocalPosition: {x: -0.35, y: 0.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 972779102}
@@ -33765,7 +33765,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341708934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35, y: 0, z: 0}
+  m_LocalPosition: {x: 0.08, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 837239380}
@@ -33944,7 +33944,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348798218}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35, y: 0, z: 0}
+  m_LocalPosition: {x: 0.07, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 209159827}
@@ -37555,7 +37555,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813831642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.66, y: 0, z: 0}
+  m_LocalPosition: {x: 1.01, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1387975146}
@@ -47951,7 +47951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!66 &2018140797
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -47969,25 +47969,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 2018140799}
-    m_ColliderPaths:
-    - - X: 142500041
-        Y: 20000104
-      - X: 139999959
-        Y: 20000104
-      - X: 139999900
-        Y: 20000045
-      - X: 139999900
-        Y: -20000045
-      - X: 139999959
-        Y: -20000104
-      - X: 142500041
-        Y: -20000104
-      - X: 142500100
-        Y: -20000045
-      - X: 142500100
-        Y: 20000045
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 14.249974, y: -2.0000105}
@@ -48791,7 +48773,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2117358732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48886,7 +48868,7 @@ PrefabInstance:
     - target: {fileID: 6529689760891807555, guid: cc2bc10e4c1f8264992bccfe6380f6fa,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8693657611180988301, guid: cc2bc10e4c1f8264992bccfe6380f6fa,
         type: 3}

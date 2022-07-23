@@ -19,6 +19,7 @@ public class EnemyManager : MonoBehaviour
         {
             OnAllDead.Invoke();
             gameObject.SetActive(false);
+            Debug.Log("ye");
         }
     }
     public void SpawnEnemies()
