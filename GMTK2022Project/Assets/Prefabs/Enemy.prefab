@@ -174,7 +174,7 @@ NavMeshAgent:
   m_Height: 1
   m_BaseOffset: 0.5
   m_WalkableMask: 5
-  m_ObstacleAvoidanceType: 0
+  m_ObstacleAvoidanceType: 2
 --- !u!114 &5290173502071189826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,7 +384,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 329213242093434651, guid: 516eb119fe6d2e5438f8d5461d85f5a6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 516eb119fe6d2e5438f8d5461d85f5a6, type: 3}
 --- !u!4 &9180460340929276526 stripped
 Transform:
