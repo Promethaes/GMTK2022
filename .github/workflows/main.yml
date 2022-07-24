@@ -1,4 +1,4 @@
-name: Build and Deploy WIP
+name: Build Standalone Windows and Deploy to Itch.io
 
 on: 
   push:
@@ -28,21 +28,21 @@ jobs:
           lfs: true
       - uses: actions/cache@v2
         with:
-          path: GMTK2022Project/Library
-          key: GMTK2022Project/Library-${{ matrix.targetPlatform }}
+          path: ${{ secrets.PROJECT_FOLDER }}/Library
+          key: ${{ secrets.PROJECT_FOLDER }}/Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
       - uses: game-ci/unity-builder@v2
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
-          projectPath: GMTK2022Project/
+          projectPath: ${{ secrets.PROJECT_FOLDER }}/
       - uses: manleydev/butler-publish-itchio-action@master
         env:
             BUTLER_CREDENTIALS: ${{ secrets.ITCH_KEY }}
             CHANNEL: windows
-            ITCH_GAME: you-died
-            ITCH_USER: crater_364
+            ITCH_GAME: ${{ secrets.ITCH_GAME }}
+            ITCH_USER: ${{ secrets.ITCH_USER }}
             PACKAGE: build/StandaloneWindows
  
             
