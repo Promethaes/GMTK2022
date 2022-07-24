@@ -297,24 +297,11 @@ public class AkDocHelper
 		var docPath = string.Empty;
 		var dataPath = UnityEngine.Application.dataPath;
 
-#if UNITY_EDITOR_WIN
 		var format = (platform == "Windows")
 			? "{0}/Wwise/Documentation/{1}/en/WwiseUnityIntegrationHelp_en.chm"
 			: "{0}/Wwise/Documentation/{1}/en/WwiseUnityIntegrationHelp_{1}_en.chm";
 
-		docPath = string.Format(format, dataPath, platform);
-#else
-		string DestPath = AkUtilities.GetFullPath(dataPath, "../WwiseUnityIntegrationHelp_en");
-		docPath = string.Format ("{0}/html/index.html", DestPath);
-		if (!System.IO.File.Exists(docPath))
-			UnzipHelp(DestPath);
 
-		if (!System.IO.File.Exists(docPath))
-		{
-			UnityEngine.Debug.Log("WwiseUnity: Unable to show documentation. Please unzip WwiseUnityIntegrationHelp_AppleCommon_en.zip manually.");
-			return string.Empty;
-		}
-#endif
 
 		var fi = new System.IO.FileInfo(docPath);
 		if (!fi.Exists)
