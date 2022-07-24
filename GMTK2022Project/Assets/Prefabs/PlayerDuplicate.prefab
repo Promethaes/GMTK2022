@@ -309,6 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 3343527321381272478}
   flippingObject: {fileID: 902706714243988930}
+  playerSpriteRenderer: {fileID: 3343527321381272479}
   lookAheadDistance: 3
 --- !u!1 &3343527320731790710
 GameObject:
@@ -1133,6 +1134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 3343527321381272478}
   flippingObject: {fileID: 1788145834246031505}
+  playerSpriteRenderer: {fileID: 0}
   lookAheadDistance: 0.5
 --- !u!95 &7945992483256040739
 Animator:
@@ -2092,6 +2094,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
+      propertyPath: bulletSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
       propertyPath: weaponManagerTransform
       value: 
       objectReference: {fileID: 1788145834246031505}
@@ -2128,7 +2135,7 @@ PrefabInstance:
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.6946584
       objectReference: {fileID: 0}
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
@@ -2143,7 +2150,7 @@ PrefabInstance:
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0.7193398
       objectReference: {fileID: 0}
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
@@ -2158,7 +2165,7 @@ PrefabInstance:
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 6500512441572266375, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}

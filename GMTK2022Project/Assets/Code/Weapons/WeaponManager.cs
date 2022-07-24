@@ -27,7 +27,9 @@ public class WeaponManager : MonoBehaviour
 
     private void Awake()
     {
+#if UNITY_EDITOR
         SetCurrentWeapon(3);
+#endif
     }
 
     private void Update()

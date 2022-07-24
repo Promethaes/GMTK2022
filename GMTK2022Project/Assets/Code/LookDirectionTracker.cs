@@ -7,6 +7,7 @@ public class LookDirectionTracker : MonoBehaviour
     [SerializeField]
     private Transform playerTransform;
     [SerializeField] Transform flippingObject;
+	[SerializeField] SpriteRenderer playerSpriteRenderer;
 
     [SerializeField]
     private float lookAheadDistance = 3f;
@@ -39,6 +40,7 @@ public class LookDirectionTracker : MonoBehaviour
 		tempScale.y = Mathf.Abs(tempScale.y) * sign;
 		tempScale.z = Mathf.Abs(tempScale.z);
         flippingObject.localScale = tempScale;
-
+		if(playerSpriteRenderer)
+			playerSpriteRenderer.flipX = angle >= 90.0f;
     }
 }
