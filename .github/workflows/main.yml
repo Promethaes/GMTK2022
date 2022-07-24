@@ -37,10 +37,13 @@ jobs:
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
           projectPath: GMTK2022Project/
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Build-${{ matrix.targetPlatform }}
-          path: build/${{ matrix.targetPlatform }}
+      - uses: manleydev/butler-publish-itchio-action@master
+        env:
+            BUTLER_CREDENTIALS: ${{ secrets.ITCH_KEY }}
+            CHANNEL: windows
+            ITCH_GAME: you-died
+            ITCH_USER: crater_364
+            PACKAGE: build/StandaloneWindows
  
             
       
