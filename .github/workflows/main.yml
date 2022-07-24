@@ -64,7 +64,7 @@ jobs:
             BUTLER_CREDENTIALS: ${{ secrets.ITCH_KEY }}
             CHANNEL: windows
             ITCH_GAME: you-died
-            ITCH_USER: crater_364
+            ITCH_USER: crater-364
             PACKAGE: build/StandaloneWindows
  
             
