@@ -235,7 +235,7 @@ public partial class AkCommonUserSettings
 		return System.IO.Path.GetFullPath(AkUtilities.GetPathInPackage(@"Runtime\Plugins\Windows\x86_64\DSP"));
 #elif UNITY_EDITOR_OSX
 		return System.IO.Path.GetFullPath(AkUtilities.GetPathInPackage("Runtime/Plugins/Mac/DSP"));
-#elif UNITY_STANDALONE_WIN
+#elif UNITY_STANDALONE
 		string potentialPath = System.IO.Path.Combine(UnityEngine.Application.dataPath, "Plugins" + System.IO.Path.DirectorySeparatorChar);
 		string architectureName = "x86";
 #if UNITY_64
