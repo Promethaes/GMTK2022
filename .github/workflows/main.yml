@@ -28,15 +28,15 @@ jobs:
           lfs: true
       - uses: actions/cache@v2
         with:
-          path: ${{ secrets.PROJECT_PATH}}/Library
-          key: ${{ secrets.PROJECT_PATH}}/Library-${{ matrix.targetPlatform }}
+          path: ${{ secrets.PROJECT_FOLDER}}/Library
+          key: ${{ secrets.PROJECT_FOLDER}}/Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
       - uses: game-ci/unity-builder@v2
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
-          projectPath: ${{ secrets.PROJECT_PATH}}/
+          projectPath: ${{ secrets.PROJECT_FOLDER}}/
       - uses: actions/upload-artifact@v2
         with:
           name: Build-${{ matrix.targetPlatform }}
