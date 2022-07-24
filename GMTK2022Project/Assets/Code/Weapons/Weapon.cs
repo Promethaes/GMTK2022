@@ -8,6 +8,8 @@ public class Weapon : MonoBehaviour
     [Header("References")]
     public GameObject weaponOwner = null;
     public SpriteRenderer spriteRenderer = null;
+    public Animator animator = null;
+    public string animationName = "weapon attack";
 
     [Tooltip("-1 for infinite")]
     [SerializeField] protected float cooldown = 0.0f;
@@ -29,8 +31,16 @@ public class Weapon : MonoBehaviour
 
     bool DebugCanAttack = false;
 
+    bool didDamage = false;
+
+    private void Awake()
+    {
+        OnAttack.AddListener(PlayAnimation);
+    }
+
     private void OnEnable()
     {
+        didDamage = false;
         _cooldown = cooldown;
         _finishAttack = 0.0f;
         OnEnableWeapon.Invoke();
@@ -44,6 +54,8 @@ public class Weapon : MonoBehaviour
                 {
                     _bFinishAttack = true;
                     OnFinishAttack.Invoke();
+                    if(didDamage)
+                        gameObject.SetActive(false);
                 }
                 _cooldown -= Time.deltaTime;
             }
@@ -94,6 +106,16 @@ public class Weapon : MonoBehaviour
             return;
         ResetCooldown();
         OnAttack.Invoke();
+    }
+
+    public void PlayAnimation()
+    {
+        animator.Play(animationName);
+    }
+
+    public void SetDidDamage(bool yn)
+    {
+        didDamage = yn;
     }
 
 }

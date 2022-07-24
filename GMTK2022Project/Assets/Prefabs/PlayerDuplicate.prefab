@@ -1119,6 +1119,7 @@ MonoBehaviour:
   - {fileID: 3966232621609299873}
   ownerEntity: {fileID: 0}
   animator: {fileID: 7945992483256040739}
+  spriteRenderer: {fileID: 4424488178330086522}
   canAttack: 1
 --- !u!114 &2489134215631654823
 MonoBehaviour:
@@ -1821,6 +1822,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 202436240891592741, guid: 4470b133b6182934d830978943b2299a,
+        type: 3}
+      propertyPath: OnDisableWeapon.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 202436240891592741, guid: 4470b133b6182934d830978943b2299a,
+        type: 3}
+      propertyPath: OnDisableWeapon.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 202436240891592741, guid: 4470b133b6182934d830978943b2299a,
+        type: 3}
+      propertyPath: OnDisableWeapon.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4470b133b6182934d830978943b2299a, type: 3}
 --- !u!4 &5590541320139424226 stripped
@@ -1848,6 +1864,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 902706714243988930}
     m_Modifications:
+    - target: {fileID: 6222117283490612036, guid: 62bb409ac28b8ec4bb9a4fcc730ab728,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7092189863193835171, guid: 62bb409ac28b8ec4bb9a4fcc730ab728,
         type: 3}
       propertyPath: m_RootOrder
@@ -2102,6 +2123,51 @@ PrefabInstance:
       propertyPath: weaponManagerTransform
       value: 
       objectReference: {fileID: 1788145834246031505}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnFinishAttack.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 6398050247503613625}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetDidDamage
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Weapon, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3184181796717169514, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_Name

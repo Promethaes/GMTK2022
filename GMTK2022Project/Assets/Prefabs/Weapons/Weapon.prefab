@@ -128,18 +128,6 @@ MonoBehaviour:
   OnDidDamage:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2449219355436496031}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2449219353872171313}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -151,6 +139,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2449219355436496024}
+        m_TargetAssemblyTypeName: Weapon, Assembly-CSharp
+        m_MethodName: SetDidDamage
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   OnFailedDidDamage:
     m_PersistentCalls:
@@ -170,6 +170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2449219355436496025}
   - component: {fileID: 2449219355436496024}
+  - component: {fileID: 4227917085875282209}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -207,6 +208,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponOwner: {fileID: 0}
   spriteRenderer: {fileID: 1569649228718801278}
+  animator: {fileID: 4227917085875282209}
+  animationName: weapon attack
   cooldown: 0.1
   finishedAttackCooldown: 0.1
   OnAttack:
@@ -257,6 +260,25 @@ MonoBehaviour:
   OnDisableWeapon:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &4227917085875282209
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2449219355436496031}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a6827f658e86edc47b5a975df1c1a2a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4513036820116729545
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +318,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4513036820116729545}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1

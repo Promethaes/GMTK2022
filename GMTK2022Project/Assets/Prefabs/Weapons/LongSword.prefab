@@ -50,6 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2449219355436496024, guid: 76d725ebce62c4e4fa654d05869d86dc,
         type: 3}
+      propertyPath: animationName
+      value: sword attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449219355436496024, guid: 76d725ebce62c4e4fa654d05869d86dc,
+        type: 3}
       propertyPath: finishedAttackCooldown
       value: 0.5
       objectReference: {fileID: 0}

@@ -18,6 +18,7 @@ public class WeaponManager : MonoBehaviour
 
     [Header("Animator")]
     [SerializeField] Animator animator;
+    [SerializeField] SpriteRenderer spriteRenderer;
 
     [HideInInspector] public bool canAttack = true;
 
@@ -35,7 +36,16 @@ public class WeaponManager : MonoBehaviour
     private void Update()
     {
         if (!currentWeapon || !currentWeapon.gameObject.activeSelf)
+        {
+            animator.enabled = true;
+            spriteRenderer.enabled = true;
             animator.SetInteger("current_weapon", 0);
+        }
+        else if (currentWeapon && currentWeapon.gameObject.activeSelf)
+        {
+            animator.enabled = false;
+            spriteRenderer.enabled = false;
+        }
         _internalDowntime += Time.deltaTime;
         if (_internalDowntime >= downtime)
             OnFinishAttack.Invoke();
@@ -68,8 +78,9 @@ public class WeaponManager : MonoBehaviour
     public void SetCurrentWeapon(int index)
     {
         currentWeapon = weapons[index];
-        animator.SetInteger("current_weapon", index + 1);
+        //animator.SetInteger("current_weapon", index + 1);
         currentWeapon.gameObject.SetActive(true);
+        OnChangeWeapon.Invoke();
     }
 
     public void RollForWeapon()

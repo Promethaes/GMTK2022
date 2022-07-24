@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 3184181796717169515}
   - component: {fileID: 3184181796717169512}
   - component: {fileID: 6500512441572266375}
+  - component: {fileID: 3740545565193134412}
   m_Layer: 0
   m_Name: Bow
   m_TagString: Untagged
@@ -110,8 +111,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponOwner: {fileID: 0}
   spriteRenderer: {fileID: 5643793790194661752}
+  animator: {fileID: 3740545565193134412}
+  animationName: Null
   cooldown: 0.65
-  finishedAttackCooldown: 0.65
+  finishedAttackCooldown: 0.3
   OnAttack:
     m_PersistentCalls:
       m_Calls:
@@ -127,6 +130,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnFinishAttack:
+    m_PersistentCalls:
+      m_Calls:
       - m_Target: {fileID: 3184181796717169514}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -139,9 +145,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  OnFinishAttack:
-    m_PersistentCalls:
-      m_Calls: []
   OnEnableWeapon:
     m_PersistentCalls:
       m_Calls: []
@@ -169,7 +172,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 0}
   flippingObject: {fileID: 0}
+  playerSpriteRenderer: {fileID: 0}
   lookAheadDistance: 3
+--- !u!95 &3740545565193134412
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184181796717169514}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a6827f658e86edc47b5a975df1c1a2a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6481026080923526403
 GameObject:
   m_ObjectHideFlags: 0
