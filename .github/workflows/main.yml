@@ -1,4 +1,4 @@
-name: Build Standalone Windows and Deploy to Itch.io
+name: Build for Standalone Windows and deploy to Itch.io
 
 on: 
   push:
@@ -16,7 +16,7 @@ jobs:
         targetPlatform:
           #- StandaloneOSX # Build a macOS standalone (Intel 64-bit).
           - StandaloneWindows # Build a Windows standalone.
-          - StandaloneWindows64 # Build a Windows 64-bit standalone.
+          #- StandaloneWindows64 # Build a Windows 64-bit standalone.
           #- StandaloneLinux64 # Build a Linux 64-bit standalone.
           #- iOS # Build an iOS player.
           #- Android # Build an Android .apk standalone app.
@@ -28,22 +28,42 @@ jobs:
           lfs: true
       - uses: actions/cache@v2
         with:
-          path: ${{ secrets.PROJECT_FOLDER }}/Library
-          key: ${{ secrets.PROJECT_FOLDER }}/Library-${{ matrix.targetPlatform }}
+          path: ${{ secrets.PROJECT_PATH}}/Library
+          key: ${{ secrets.PROJECT_PATH}}/Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
       - uses: game-ci/unity-builder@v2
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
-          projectPath: ${{ secrets.PROJECT_FOLDER }}/
+          projectPath: ${{ secrets.PROJECT_PATH}}/
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Build-${{ matrix.targetPlatform }}
+          path: build/${{ matrix.targetPlatform }}
+  deplyToItch:
+    needs: [buildForAllSupportedPlatforms]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      #- name: Download StandaloneWindows64 Artifact
+       # uses: actions/download-artifact@v2
+       # with:
+        #  name: Build-StandaloneWindows64
+        #  path: build/StandaloneWindows64
+      - name: Download StandaloneWindows Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: Build-StandaloneWindows
+          path: build/StandaloneWindows
       - uses: manleydev/butler-publish-itchio-action@master
         env:
             BUTLER_CREDENTIALS: ${{ secrets.ITCH_KEY }}
             CHANNEL: windows
-            ITCH_GAME: ${{ secrets.ITCH_GAME }}
-            ITCH_USER: ${{ secrets.ITCH_USER }}
+            ITCH_GAME: ${{secrets.ITCH_GAME}}
+            ITCH_USER: ${{secrets.ITCH_USER}}
             PACKAGE: build/StandaloneWindows
- 
-            
-      
+ #nice
