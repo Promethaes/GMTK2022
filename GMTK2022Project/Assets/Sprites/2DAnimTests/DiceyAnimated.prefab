@@ -112,6 +112,7 @@ GameObject:
   - component: {fileID: 7066761066568887832}
   - component: {fileID: 5857350586419666060}
   - component: {fileID: 7121022303244628750}
+  - component: {fileID: 92368379123562353}
   m_Layer: 0
   m_Name: DiceyAnimated
   m_TagString: Untagged
@@ -236,3 +237,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &92368379123562353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9032448638590307115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbad584954e84cc42891a50eb13b0c32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 7121022303244628750}
