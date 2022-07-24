@@ -27,6 +27,7 @@ public class WeaponManager : MonoBehaviour
 
     private void Awake()
     {
+        SetCurrentWeapon(3);
     }
 
     private void Update()
@@ -66,6 +67,7 @@ public class WeaponManager : MonoBehaviour
     {
         currentWeapon = weapons[index];
         animator.SetInteger("current_weapon", index + 1);
+        currentWeapon.gameObject.SetActive(true);
     }
 
     public void RollForWeapon()
@@ -75,7 +77,6 @@ public class WeaponManager : MonoBehaviour
         while (currentWeapon == weapons[result])
             result = Random.Range(0, weapons.Count);
         SetCurrentWeapon(result);
-        currentWeapon.gameObject.SetActive(true);
     }
 
 }

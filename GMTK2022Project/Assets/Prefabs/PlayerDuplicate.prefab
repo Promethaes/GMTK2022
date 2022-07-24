@@ -1610,7 +1610,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1756754815814674785, guid: f0faf2e7f1f683448af5e3579c5aa863, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f0faf2e7f1f683448af5e3579c5aa863, type: 3}
 --- !u!4 &2746728803491843836 stripped
 Transform:
@@ -2089,6 +2090,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 902706714243988930}
     m_Modifications:
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: weaponManagerTransform
+      value: 
+      objectReference: {fileID: 1788145834246031505}
     - target: {fileID: 3184181796717169514, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_Name
@@ -2122,22 +2128,22 @@ PrefabInstance:
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
@@ -2152,8 +2158,23 @@ PrefabInstance:
     - target: {fileID: 3184181796717169515, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500512441572266375, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6500512441572266375, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: flippingObject
+      value: 
+      objectReference: {fileID: 902706714243988930}
+    - target: {fileID: 6500512441572266375, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
+      propertyPath: playerTransform
+      value: 
+      objectReference: {fileID: 3343527321381272478}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76022bd7f8032c84399898021aa8454e, type: 3}
 --- !u!114 &6398050247503613625 stripped

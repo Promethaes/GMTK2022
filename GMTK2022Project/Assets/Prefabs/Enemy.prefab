@@ -277,7 +277,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   weapon: {fileID: 5290173502720099563}
-  swordTip: {fileID: 0}
+  swordTip: {fileID: 5290173502698016430}
   attackDistance: 5
 --- !u!95 &8971432649918882076
 Animator:
@@ -437,6 +437,11 @@ PrefabInstance:
       objectReference: {fileID: 5290173502071189830}
     - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
         type: 3}
+      propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184181796717169512, guid: 76022bd7f8032c84399898021aa8454e,
+        type: 3}
       propertyPath: OnAttack.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 4906299737918931049}
@@ -530,6 +535,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28cbead1bd5e8414386c3385fb1796d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &5290173502698016430 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3184181796694163757, guid: 76022bd7f8032c84399898021aa8454e,
+    type: 3}
+  m_PrefabInstance: {fileID: 7303154953655635843}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4906299737918931049 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2399478662291738602, guid: 76022bd7f8032c84399898021aa8454e,
@@ -602,6 +613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449219355436496031, guid: 76d725ebce62c4e4fa654d05869d86dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6247627694582250611, guid: 76d725ebce62c4e4fa654d05869d86dc,
         type: 3}
