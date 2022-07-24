@@ -1,4 +1,4 @@
-﻿#if (UNITY_STANDALONE && !UNITY_EDITOR) || UNITY_EDITOR_WIN
+﻿
 public partial class AkCommonUserSettings
 {
 	partial void SetSampleRate(AkPlatformInitSettings settings)
@@ -6,7 +6,7 @@ public partial class AkCommonUserSettings
 		settings.uSampleRate = m_SampleRate;
 	}
 }
-#endif
+
 
 public class AkWindowsSettings : AkWwiseInitializationSettings.PlatformSettings
 {
@@ -41,9 +41,9 @@ public class AkWindowsSettings : AkWwiseInitializationSettings.PlatformSettings
 
 		public override void CopyTo(AkPlatformInitSettings settings)
 		{
-#if (UNITY_STANDALONE && !UNITY_EDITOR) || UNITY_EDITOR_WIN
+
 			settings.uMaxSystemAudioObjects = MaxSystemAudioObjects;
-#endif
+
 		}
 	}
 
