@@ -21328,6 +21328,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 1531abaaacf3bf0478233a04777e9cd0,
       type: 2}
+  audioEvent: {fileID: 0}
   footstepTime: 0.35
   m_isPlayer: 0
 --- !u!1 &1051275099
@@ -36543,6 +36544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 857471178}
   flippingObject: {fileID: 0}
+  playerSpriteRenderer: {fileID: 0}
   lookAheadDistance: 3
 --- !u!1001 &1616482466
 PrefabInstance:
@@ -50204,6 +50206,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -9.166666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343527320191943468, guid: 212b78ef7eb18224e8590a9c33a9d0e4,
+        type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 1.7781457
       objectReference: {fileID: 0}
     - target: {fileID: 3343527320731790710, guid: 212b78ef7eb18224e8590a9c33a9d0e4,
         type: 3}

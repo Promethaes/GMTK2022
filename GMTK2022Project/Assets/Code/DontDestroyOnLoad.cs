@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DontDestroyOnLoad : MonoBehaviour
 {
-    static bool exists = false;
+    bool exists = false;
 
     void Start()
     {

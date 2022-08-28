@@ -305,7 +305,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5290173502071189882}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 826024b1bb2dc7741a5f535180420ef3, type: 3}
   m_Name: 
@@ -315,6 +315,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: aceb533989ef9244cb4bc0da9d1325c9,
       type: 2}
+  audioEvent: {fileID: 0}
   footstepTime: 0.35
   m_isPlayer: 0
 --- !u!1001 &3632437576592833107

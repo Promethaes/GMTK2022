@@ -6,7 +6,7 @@ public class WwiseFootsteps : MonoBehaviour
 {
     [Header("Audio")]
     [SerializeField] AK.Wwise.Event wwiseEvent;
-    //[SerializeField] AudioRandomizerContainer audioContainer;
+    [SerializeField] AudioClipRandomizer audioEvent;
 
     [Header("Settings")]
     [SerializeField] float footstepTime = 0.35f;
@@ -15,13 +15,16 @@ public class WwiseFootsteps : MonoBehaviour
     PlayerMovement playerMovement = null;
     EnemyMovement enemyMovement = null;
     bool isCoroutineRunning = false;
+    static CheckPlatform checkPlatform;
 
     void Start()
     {
+        checkPlatform = FindObjectOfType<CheckPlatform>();
+
         if (m_isPlayer)
-            playerMovement = gameObject.GetComponent<PlayerMovement>();
+            playerMovement = FindObjectOfType<PlayerMovement>();
         else
-            enemyMovement = gameObject.GetComponent<EnemyMovement>();
+            enemyMovement = gameObject.GetComponentInParent<EnemyMovement>();
     }
 
     void Update()
@@ -33,14 +36,22 @@ public class WwiseFootsteps : MonoBehaviour
     IEnumerator FootstepRoutine()
     {
         isCoroutineRunning = true;
-        if (wwiseEvent.IsValid())
+        if (checkPlatform.isUsingWwise)
         {
-            //Debug.Log("Played Wwise Event: " + wwiseEvent);
-            wwiseEvent.Post(Camera.main.gameObject);
+            if (wwiseEvent.IsValid())
+            {
+                //Debug.Log("Played Wwise Event: " + wwiseEvent);
+                wwiseEvent.Post(Camera.main.gameObject);
+            }
+            else
+            {
+                Debug.LogWarning("Warning: Missing Event for Wwise Obj: " + wwiseEvent);
+            }
         }
         else
         {
-            Debug.LogWarning("Warning: Missing Event for Wwise Obj: " + wwiseEvent);
+            if (audioEvent != null)
+                audioEvent.PlaySFX();
         }
 
         yield return new WaitForSeconds(footstepTime);
