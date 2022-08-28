@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3182539833	OnHit			\Default Work Unit\OnHit	
+
+State	ID	Name	State Group			Notes
+	748895195	None	OnHit			
+	1972544759	Recover	OnHit			
+	3182539833	OnHit	OnHit			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	553975197	OnHit	OnHit	\Interactive Music Hierarchy\Default Work Unit\Music		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1762690	Celtic Impulse Loop	D:\My Computer\Documents\GitHub\GMTK2022\GMTK2022Project\GMTK2022Project_WwiseProject\.cache\Windows\SFX\Celtic Impulse Loop_7C50458A.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Celtic Impulse Loop\Celtic Impulse Loop		28800064
+
